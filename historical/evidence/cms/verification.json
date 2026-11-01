@@ -1,0 +1,65 @@
+{
+  "result": "PASS",
+  "original_roundtrip": true,
+  "changed_offsets": [
+    540
+  ],
+  "encrypted_content_range": [
+    540,
+    587
+  ],
+  "nonce_unchanged": true,
+  "tag_range": [
+    589,
+    605
+  ],
+  "tag_unchanged": true,
+  "commands": [
+    {
+      "command": [
+        "openssl",
+        "cms",
+        "-decrypt",
+        "-in",
+        "/tmp/hxm1_release_0814u51j/cms_check/tamper_original.cms",
+        "-out",
+        "/tmp/hxm1_release_0814u51j/cms_check/independent_original.dec",
+        "-recip",
+        "/tmp/hxm1_release_0814u51j/cms_check/cert.pem",
+        "-inkey",
+        "/tmp/hxm1_release_0814u51j/cms_check/rsa_priv.pem",
+        "-binary",
+        "-inform",
+        "DER",
+        "-keyopt",
+        "rsa_padding_mode:oaep"
+      ],
+      "returncode": 0,
+      "stderr": ""
+    },
+    {
+      "command": [
+        "openssl",
+        "cms",
+        "-decrypt",
+        "-in",
+        "/tmp/hxm1_release_0814u51j/cms_check/tamper_modified.cms",
+        "-out",
+        "/tmp/hxm1_release_0814u51j/cms_check/independent_modified.dec",
+        "-recip",
+        "/tmp/hxm1_release_0814u51j/cms_check/cert.pem",
+        "-inkey",
+        "/tmp/hxm1_release_0814u51j/cms_check/rsa_priv.pem",
+        "-binary",
+        "-inform",
+        "DER",
+        "-keyopt",
+        "rsa_padding_mode:oaep"
+      ],
+      "returncode": 4,
+      "stderr": "Error decrypting CMS structure\n"
+    }
+  ],
+  "tampered_output_bytes": 47,
+  "warning": "CLI failure is detected by nonzero exit status; do not consume output from failed authenticated decryption."
+}

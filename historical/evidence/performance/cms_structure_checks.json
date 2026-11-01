@@ -1,0 +1,116 @@
+[
+  {
+    "command": [
+      "/home/Lubna/miniconda3/bin/openssl",
+      "cms",
+      "-cmsout",
+      "-print",
+      "-inform",
+      "DER",
+      "-in",
+      "/tmp/hxm1_performance_9161q8yp/cms_cbc_128B/measured_001.cms"
+    ],
+    "returncode": 0,
+    "selected_fields": [
+      "contentType: pkcs7-envelopedData (1.2.840.113549.1.7.3)",
+      "algorithm: rsaesOaep (1.2.840.113549.1.1.7)",
+      "contentType: pkcs7-data (1.2.840.113549.1.7.1)",
+      "algorithm: aes-256-cbc (2.16.840.1.101.3.4.1.42)"
+    ]
+  },
+  {
+    "command": [
+      "/home/Lubna/miniconda3/bin/openssl",
+      "cms",
+      "-cmsout",
+      "-print",
+      "-inform",
+      "DER",
+      "-in",
+      "/tmp/hxm1_performance_9161q8yp/cms_cbc_16384B/measured_001.cms"
+    ],
+    "returncode": 0,
+    "selected_fields": [
+      "contentType: pkcs7-envelopedData (1.2.840.113549.1.7.3)",
+      "algorithm: rsaesOaep (1.2.840.113549.1.1.7)",
+      "contentType: pkcs7-data (1.2.840.113549.1.7.1)",
+      "algorithm: aes-256-cbc (2.16.840.1.101.3.4.1.42)"
+    ]
+  },
+  {
+    "command": [
+      "/home/Lubna/miniconda3/bin/openssl",
+      "cms",
+      "-cmsout",
+      "-print",
+      "-inform",
+      "DER",
+      "-in",
+      "/tmp/hxm1_performance_9161q8yp/cms_cbc_1048576B/measured_001.cms"
+    ],
+    "returncode": 0,
+    "selected_fields": [
+      "contentType: pkcs7-envelopedData (1.2.840.113549.1.7.3)",
+      "algorithm: rsaesOaep (1.2.840.113549.1.1.7)",
+      "contentType: pkcs7-data (1.2.840.113549.1.7.1)",
+      "algorithm: aes-256-cbc (2.16.840.1.101.3.4.1.42)"
+    ]
+  },
+  {
+    "command": [
+      "/home/Lubna/miniconda3/bin/openssl",
+      "cms",
+      "-cmsout",
+      "-print",
+      "-inform",
+      "DER",
+      "-in",
+      "/tmp/hxm1_performance_9161q8yp/cms_gcm_128B/measured_001.cms"
+    ],
+    "returncode": 0,
+    "selected_fields": [
+      "contentType: id-smime-ct-authEnvelopedData (1.2.840.113549.1.9.16.1.23)",
+      "algorithm: rsaesOaep (1.2.840.113549.1.1.7)",
+      "contentType: pkcs7-data (1.2.840.113549.1.7.1)",
+      "algorithm: aes-256-gcm (2.16.840.1.101.3.4.1.46)"
+    ]
+  },
+  {
+    "command": [
+      "/home/Lubna/miniconda3/bin/openssl",
+      "cms",
+      "-cmsout",
+      "-print",
+      "-inform",
+      "DER",
+      "-in",
+      "/tmp/hxm1_performance_9161q8yp/cms_gcm_16384B/measured_001.cms"
+    ],
+    "returncode": 0,
+    "selected_fields": [
+      "contentType: id-smime-ct-authEnvelopedData (1.2.840.113549.1.9.16.1.23)",
+      "algorithm: rsaesOaep (1.2.840.113549.1.1.7)",
+      "contentType: pkcs7-data (1.2.840.113549.1.7.1)",
+      "algorithm: aes-256-gcm (2.16.840.1.101.3.4.1.46)"
+    ]
+  },
+  {
+    "command": [
+      "/home/Lubna/miniconda3/bin/openssl",
+      "cms",
+      "-cmsout",
+      "-print",
+      "-inform",
+      "DER",
+      "-in",
+      "/tmp/hxm1_performance_9161q8yp/cms_gcm_1048576B/measured_001.cms"
+    ],
+    "returncode": 0,
+    "selected_fields": [
+      "contentType: id-smime-ct-authEnvelopedData (1.2.840.113549.1.9.16.1.23)",
+      "algorithm: rsaesOaep (1.2.840.113549.1.1.7)",
+      "contentType: pkcs7-data (1.2.840.113549.1.7.1)",
+      "algorithm: aes-256-gcm (2.16.840.1.101.3.4.1.46)"
+    ]
+  }
+]

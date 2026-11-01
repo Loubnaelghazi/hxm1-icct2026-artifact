@@ -1,0 +1,194 @@
+[
+  {
+    "original_path": "evidence/cms/independent_modified.dec",
+    "sha256": "ad128f5dd6dca86c64557401bb23924602c304c8005056c4ae48f509b7e2eea9",
+    "bytes": 47,
+    "reason": "Unauthenticated output from failed CMS decrypt; not needed for evidence verification"
+  },
+  {
+    "original_path": "evidence/cms/tamper_modified.dec",
+    "sha256": "ad128f5dd6dca86c64557401bb23924602c304c8005056c4ae48f509b7e2eea9",
+    "bytes": 47,
+    "reason": "Unauthenticated output from failed CMS decrypt; not needed for evidence verification"
+  },
+  {
+    "original_path": "evidence/fuzz/public_test_key_seed42.json",
+    "sha256": "753621dd022d2cf6a49de624f49421a716824917337123ec484a413a702bff5c",
+    "bytes": 6560,
+    "reason": "Historical disposable PRIVATE fuzz replay bundle; excluded per private-key policy"
+  },
+  {
+    "original_path": "evidence/fuzz/public_test_key_seed7.json",
+    "sha256": "7be46658213982301334dd4f1a5784a3289774f04bfe645a0bbaba3d154c869f",
+    "bytes": 6560,
+    "reason": "Historical disposable PRIVATE fuzz replay bundle; excluded per private-key policy"
+  },
+  {
+    "original_path": "packaging_validation/cms/modified.dec",
+    "sha256": "ad128f5dd6dca86c64557401bb23924602c304c8005056c4ae48f509b7e2eea9",
+    "bytes": 47,
+    "reason": "Unauthenticated output from failed CMS decrypt; not needed for evidence verification"
+  },
+  {
+    "original_path": "source/attack_experiments.py",
+    "sha256": "dd0c431626a39bf184919d09ea25ee4f6dfe52531dc5f337ec220687120029b2",
+    "bytes": 13838,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/bound_envelope_control.py",
+    "sha256": "40b4b06866a2e9a06907f34bf02c3a14ab0e2380f38dd82f1662cfffa6468ae9",
+    "bytes": 2946,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/compare_bound_control.py",
+    "sha256": "273e0b8e2663f9fc436b5105f22dfdd99c8628baa36a3b4fb80cd7ac1afc0907",
+    "bytes": 5071,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/debug.py",
+    "sha256": "079db6856ba3a44f10184667015df0fac4e958c4f2d2ce85c9bc1a30b2fee707",
+    "bytes": 1765,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/fuzz_compare_baselines.py",
+    "sha256": "1fa84602e595d297736f2fef1fe73aaffdb8e12f19495a8bf8353ab2da9eeead",
+    "bytes": 8175,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/fuzz_hxm1_parser.py",
+    "sha256": "9e332c394ce9a7eacaeb8f44c822e46af5bd7914acbc95e7d4b5309b14c040bb",
+    "bytes": 15483,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/hxm1_cli.py",
+    "sha256": "e13d0c3bd97b2e88d6a260320e07b34b5cdf1c45493af82c676cf41024a19f8d",
+    "bytes": 3453,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/hxm1_parser.js",
+    "sha256": "8cdf93bb2f2639d376e6c529677a72fa0f369a73c05687876f1c9ccf84393dbb",
+    "bytes": 2483,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/hybrid_rsa_mlkem.py",
+    "sha256": "7917c412f4e1d8c17fb9562f2c52d05480fd8b24a3976f58b84ce3db22d596a1",
+    "bytes": 14641,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/make_test_vectors.py",
+    "sha256": "865a73800ea07c0ca32e4f3f464b7ece10c05b4596b157bd539ec90925291924",
+    "bytes": 1753,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/openssl_cms_bench/bench_openssl_cms.py",
+    "sha256": "cd96587a48bec875e9424a6402a16e564b69c1c97778db9f92c2bb6cfd37bf03",
+    "bytes": 3364,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/openssl_cms_bench/bench_openssl_cms_gcm.py",
+    "sha256": "0a5dd10b38c1bd9721c4caae50321fb89a978cbb747e482b0cbd8a0016716ece",
+    "bytes": 3250,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/openssl_cms_bench/inspect_cms.py",
+    "sha256": "555a9d26d6f986398dbd1df1508824bae5689a44fafb39ed126dc653e1b21597",
+    "bytes": 1565,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/openssl_cms_bench/test_cms_tampering.py",
+    "sha256": "e9d158207dbbe35b5383e024402a10dd80427879a38cc5fe2ab019bc9b9afd00",
+    "bytes": 3917,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/requirements.txt",
+    "sha256": "cdff7d1b0ba36db5f5a19e51f662bfe8379155e56b47348df82cf1e53635d0f4",
+    "bytes": 51,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/run_experiments.py",
+    "sha256": "7698545c4a4366c386fc611e20b04b4959a717f1329278462f4633954a9771a4",
+    "bytes": 16699,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_comparison_verified.py",
+    "sha256": "b000562492deba968a515cae145c0fc84385e5ad81079aee42239adb7bb38b18",
+    "bytes": 1646,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_hpke_reference.py",
+    "sha256": "fb04251ce7b14602f5ee1365ff68e2cad4c9c0aff565e2e1a5a9ac5d923a125f",
+    "bytes": 2761,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_hxm1_parser.js",
+    "sha256": "2532913ca21bafdc89f977a83bed9227ea9ae4c9e1d880d851e290e553334c1f",
+    "bytes": 1439,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_security_regressions.py",
+    "sha256": "560ea3c71479adf6ccc04fbd9d439b118689e3cb3cad50bae7152dbafe51ba2f",
+    "bytes": 5021,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_vectors/hybrid.hxm1",
+    "sha256": "b2a4bdf2c7d719dd1667dd4bc1a5c470c206cb96dd5eef820e31fdba68cd6ea0",
+    "bytes": 1579,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_vectors/mlkem.hxm1",
+    "sha256": "c7a1727d30b5a319391cfae1859cebb0ac1618c34b21397c947c9402bbd91e57",
+    "bytes": 1195,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_vectors/plaintext.bin",
+    "sha256": "90a47527a95ac3a0a7388fa5e0d763c72e65412411d1cca6b9edf6aff01ba86b",
+    "bytes": 64,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_vectors/public_key.json",
+    "sha256": "5f25792bb2ff76de242ac10fc0dbae02507e177d44e25386a87500ee5c582bfd",
+    "bytes": 2462,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_vectors/rsa.hxm1",
+    "sha256": "6246767d1f08aacf606578f79cbf1a774bec6ee19f13e0b48ae72a118796bf08",
+    "bytes": 491,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/test_vectors/vectors.json",
+    "sha256": "fe9fa6d898a9253e77ef6c5c1ed5f2f8763706b0c82a1cc7d80daae14a05a295",
+    "bytes": 1745,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  },
+  {
+    "original_path": "source/vulnerable_baselines.py",
+    "sha256": "d54ab71a5bbd2b7037b3e0b4c285590d4604e60da3619d2d0eea3d0e568a1a99",
+    "bytes": 7677,
+    "reason": "Duplicate original source snapshot; cleaned source is shipped and shared source hashes are checked separately"
+  }
+]

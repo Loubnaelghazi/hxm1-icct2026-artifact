@@ -1,0 +1,111 @@
+{
+  "rows": [
+    {
+      "failure": "unauthenticated header modification",
+      "target": "Naive-A",
+      "attack_result": "VULNERABLE",
+      "expected_defense": "metadata changes must invalidate package"
+    },
+    {
+      "failure": "decryptor-selected downgrade",
+      "target": "Naive-B",
+      "attack_result": "VULNERABLE",
+      "expected_defense": "ciphertext mode must be authenticated and enforced"
+    },
+    {
+      "failure": "component stripping / RSA fallback",
+      "target": "Naive-C",
+      "attack_result": "VULNERABLE",
+      "expected_defense": "hybrid profile must require both KEM components"
+    },
+    {
+      "failure": "version rollback",
+      "target": "Naive-A",
+      "attack_result": "VULNERABLE",
+      "expected_defense": "unsupported versions must be rejected and authenticated"
+    },
+    {
+      "failure": "recipient/AAD misbinding",
+      "target": "Naive-D",
+      "attack_result": "VULNERABLE",
+      "expected_defense": "recipient and AAD context must be authenticated"
+    },
+    {
+      "failure": "unauthenticated header modification",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "ValueError: unsupported HXM1 package",
+      "expected_defense": "metadata changes must invalidate package"
+    },
+    {
+      "failure": "decryptor-selected downgrade",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "ValueError: wrong HXM1 mode",
+      "expected_defense": "ciphertext mode must be authenticated and enforced"
+    },
+    {
+      "failure": "ML-KEM ciphertext bit modification",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "InvalidTag: ",
+      "expected_defense": "authentication must reject a modified ML-KEM ciphertext"
+    },
+    {
+      "failure": "missing ML-KEM component",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid ML-KEM ciphertext length",
+      "expected_defense": "hybrid parser must reject an invalid ML-KEM ciphertext length"
+    },
+    {
+      "failure": "version rollback",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "ValueError: unsupported HXM1 package",
+      "expected_defense": "unsupported versions must be rejected and authenticated"
+    },
+    {
+      "failure": "recipient/AAD misbinding",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "InvalidTag: ",
+      "expected_defense": "recipient and AAD context must be authenticated"
+    },
+    {
+      "failure": "malformed length field (c_rsa_len=0)",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid HXM1 package length",
+      "expected_defense": "strict parser must reject inconsistent field lengths"
+    },
+    {
+      "failure": "malformed length field (c_rsa_len=1 (too small))",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid HXM1 package length",
+      "expected_defense": "strict parser must reject inconsistent field lengths"
+    },
+    {
+      "failure": "malformed length field (c_rsa_len=max_uint16 (too large))",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid HXM1 package length",
+      "expected_defense": "strict parser must reject inconsistent field lengths"
+    },
+    {
+      "failure": "malformed length field (c_mlkem_len=0)",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid HXM1 package length",
+      "expected_defense": "strict parser must reject inconsistent field lengths"
+    },
+    {
+      "failure": "malformed length field (nonce_len=0)",
+      "target": "HXM1",
+      "attack_result": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid HXM1 package length",
+      "expected_defense": "strict parser must reject inconsistent field lengths"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "reproduce.py": {
+    "role": "New release orchestration; adapted from an existing local wrapper, not part of the historical experiment",
+    "adapted_from": "hxm1_public_candidate_ggx_swp2/public/reproduce.py",
+    "adapted_from_sha256": "8f553edbf5bf09a420bf2467a64ad1dd695dc3aed7e37aca8b8b8e62f6e82aea",
+    "changes": [
+      "source layout and output isolation",
+      "explicit historical fixture skips and fresh vectors",
+      "read-only portable historic verification",
+      "fresh benchmark validation without historic paths",
+      "actual fresh fuzz counts",
+      "discard failed CMS output"
+    ]
+  },
+  "verify_evidence.py": {
+    "role": "New portable verification infrastructure; original validators preserved unchanged under historical/"
+  },
+  "benchmark_campaign.py": {
+    "role": "Unmodified archived campaign under historical/evidence/performance/"
+  },
+  "test_assertions": "Original source and tests byte-identical to cleaned candidate; only output-directory routing is applied in memory by wrapper"
+}

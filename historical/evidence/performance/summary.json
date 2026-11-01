@@ -1,0 +1,307 @@
+{
+  "summaries": [
+    {
+      "configuration": "cms_cbc_1048576B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 15.5809685,
+      "mean_ms": 15.9360733,
+      "sample_stdev_ms": 1.5902036684871348,
+      "min_ms": 13.48726,
+      "max_ms": 19.186664
+    },
+    {
+      "configuration": "cms_cbc_1048576B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 17.6037035,
+      "mean_ms": 17.879310433333334,
+      "sample_stdev_ms": 1.3408559001107099,
+      "min_ms": 15.308203,
+      "max_ms": 21.488323
+    },
+    {
+      "configuration": "cms_cbc_128B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 9.594058,
+      "mean_ms": 9.879164266666667,
+      "sample_stdev_ms": 1.0521598777972576,
+      "min_ms": 8.489705,
+      "max_ms": 13.740289
+    },
+    {
+      "configuration": "cms_cbc_128B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 7.6531725,
+      "mean_ms": 8.004623233333334,
+      "sample_stdev_ms": 2.083273958443605,
+      "min_ms": 6.629403,
+      "max_ms": 18.268535
+    },
+    {
+      "configuration": "cms_cbc_16384B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 9.5515115,
+      "mean_ms": 9.635746133333333,
+      "sample_stdev_ms": 0.46089711351508095,
+      "min_ms": 8.909663,
+      "max_ms": 10.680187
+    },
+    {
+      "configuration": "cms_cbc_16384B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 7.3705925,
+      "mean_ms": 7.4759885,
+      "sample_stdev_ms": 0.42458800994170653,
+      "min_ms": 6.614023,
+      "max_ms": 8.564901
+    },
+    {
+      "configuration": "cms_gcm_1048576B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 16.251027,
+      "mean_ms": 16.6560049,
+      "sample_stdev_ms": 2.3632119928682886,
+      "min_ms": 14.112421,
+      "max_ms": 24.245915
+    },
+    {
+      "configuration": "cms_gcm_1048576B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 16.2331785,
+      "mean_ms": 16.410381833333336,
+      "sample_stdev_ms": 1.1779337092695803,
+      "min_ms": 14.602957,
+      "max_ms": 19.730726
+    },
+    {
+      "configuration": "cms_gcm_128B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 9.789361,
+      "mean_ms": 9.8143689,
+      "sample_stdev_ms": 0.5302609854521118,
+      "min_ms": 8.832503,
+      "max_ms": 11.029336
+    },
+    {
+      "configuration": "cms_gcm_128B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 7.443296500000001,
+      "mean_ms": 7.657404766666667,
+      "sample_stdev_ms": 0.6576955091530178,
+      "min_ms": 6.795741,
+      "max_ms": 9.261912
+    },
+    {
+      "configuration": "cms_gcm_16384B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 9.8647955,
+      "mean_ms": 9.996578066666666,
+      "sample_stdev_ms": 0.8273388344440069,
+      "min_ms": 8.646543,
+      "max_ms": 12.601171
+    },
+    {
+      "configuration": "cms_gcm_16384B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 7.658802,
+      "mean_ms": 7.875031233333333,
+      "sample_stdev_ms": 0.8221048534698826,
+      "min_ms": 6.842089,
+      "max_ms": 10.515313
+    },
+    {
+      "configuration": "hybrid_1048576B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 216.384353,
+      "mean_ms": 215.97046243333335,
+      "sample_stdev_ms": 5.416096411902884,
+      "min_ms": 203.919746,
+      "max_ms": 228.813061
+    },
+    {
+      "configuration": "hybrid_1048576B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 6.892747,
+      "mean_ms": 7.110350100000001,
+      "sample_stdev_ms": 0.6310344657787827,
+      "min_ms": 6.32137,
+      "max_ms": 8.908934
+    },
+    {
+      "configuration": "hybrid_128B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 214.733644,
+      "mean_ms": 215.83764833333333,
+      "sample_stdev_ms": 5.021958621847054,
+      "min_ms": 208.298915,
+      "max_ms": 227.915977
+    },
+    {
+      "configuration": "hybrid_128B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 6.293055000000001,
+      "mean_ms": 6.4779192000000005,
+      "sample_stdev_ms": 0.5086697713086555,
+      "min_ms": 5.92413,
+      "max_ms": 7.972119
+    },
+    {
+      "configuration": "hybrid_16384B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 215.3882875,
+      "mean_ms": 215.39558540000002,
+      "sample_stdev_ms": 5.428038741256179,
+      "min_ms": 204.78501,
+      "max_ms": 229.671033
+    },
+    {
+      "configuration": "hybrid_16384B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 6.274719,
+      "mean_ms": 6.4804628,
+      "sample_stdev_ms": 0.5454896486092294,
+      "min_ms": 6.033454,
+      "max_ms": 8.291269
+    },
+    {
+      "configuration": "mlkem_1048576B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 8.577216,
+      "mean_ms": 8.7461312,
+      "sample_stdev_ms": 0.7050441580151338,
+      "min_ms": 7.886401,
+      "max_ms": 10.99948
+    },
+    {
+      "configuration": "mlkem_1048576B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 6.521611,
+      "mean_ms": 6.6363015,
+      "sample_stdev_ms": 0.5746601308524562,
+      "min_ms": 5.899766,
+      "max_ms": 7.947124
+    },
+    {
+      "configuration": "mlkem_128B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 7.822397499999999,
+      "mean_ms": 7.936358233333333,
+      "sample_stdev_ms": 0.5822401067094336,
+      "min_ms": 7.200894,
+      "max_ms": 9.208559
+    },
+    {
+      "configuration": "mlkem_128B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 5.6972895,
+      "mean_ms": 5.737855733333333,
+      "sample_stdev_ms": 0.3169045505168256,
+      "min_ms": 5.312384,
+      "max_ms": 6.637228
+    },
+    {
+      "configuration": "mlkem_16384B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 8.069190500000001,
+      "mean_ms": 8.313544033333333,
+      "sample_stdev_ms": 0.7077785816428109,
+      "min_ms": 7.48247,
+      "max_ms": 10.557209
+    },
+    {
+      "configuration": "mlkem_16384B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 6.0008935,
+      "mean_ms": 6.133313,
+      "sample_stdev_ms": 0.48755048123259803,
+      "min_ms": 5.5472,
+      "max_ms": 7.212667
+    },
+    {
+      "configuration": "rsa_1048576B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 207.67073349999998,
+      "mean_ms": 209.11651633333335,
+      "sample_stdev_ms": 6.307347126615758,
+      "min_ms": 201.332832,
+      "max_ms": 236.959198
+    },
+    {
+      "configuration": "rsa_1048576B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 0.945945,
+      "mean_ms": 0.9916279333333333,
+      "sample_stdev_ms": 0.12978366538734645,
+      "min_ms": 0.856924,
+      "max_ms": 1.400365
+    },
+    {
+      "configuration": "rsa_128B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 207.5119605,
+      "mean_ms": 208.06490813333332,
+      "sample_stdev_ms": 5.5136060353161245,
+      "min_ms": 196.582719,
+      "max_ms": 221.020572
+    },
+    {
+      "configuration": "rsa_128B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 0.6140025,
+      "mean_ms": 0.6957463,
+      "sample_stdev_ms": 0.20209763535533326,
+      "min_ms": 0.552317,
+      "max_ms": 1.322981
+    },
+    {
+      "configuration": "rsa_16384B",
+      "operation": "decrypt",
+      "n": 30,
+      "median_ms": 207.99629299999998,
+      "mean_ms": 207.05292186666665,
+      "sample_stdev_ms": 4.736820711195809,
+      "min_ms": 196.288368,
+      "max_ms": 216.288668
+    },
+    {
+      "configuration": "rsa_16384B",
+      "operation": "encrypt",
+      "n": 30,
+      "median_ms": 0.612159,
+      "mean_ms": 0.6196141999999999,
+      "sample_stdev_ms": 0.05591917136577118,
+      "min_ms": 0.551296,
+      "max_ms": 0.766506
+    }
+  ],
+  "failure_count": 0,
+  "warmup_rows": 90,
+  "measured_rows": 900
+}

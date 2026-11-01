@@ -1,0 +1,28 @@
+# Environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Private material and passphrases
+hxm1_private.json
+hxm1_private*.json
+**/*.replay-key
+**/*passphrase*
+**/rsa_priv.pem
+**/private_key.json
+*.key
+.env
+.env.*
+# Generated outputs
+*.recovered.*
+demo_*
+results/
+results_extended/
+results_hxm1_profile/
+results_rfc_kem_smoke/
+results_rsa_kem_binary/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

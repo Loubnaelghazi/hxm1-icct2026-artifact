@@ -1,0 +1,8 @@
+{
+  "status": "unpublished release candidate",
+  "project_files_modified": false,
+  "new_hpke_result": "3/3 PASS",
+  "new_cms_result": "original succeeds; changed encrypted content rejected; tag/nonce unchanged",
+  "private_asset_policy": "public disposable fuzz test keys only; original CMS/performance keys and replay passphrases excluded",
+  "license": "not assigned; authors must choose before publication"
+}

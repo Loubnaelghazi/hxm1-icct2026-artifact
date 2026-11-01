@@ -1,0 +1,10 @@
+Trials: 3000  Seed: 7  Elapsed: 95.1s
+Classified outcomes:
+  EXPECTED_REJECTION: 2998
+  UNCHANGED_VALID_PACKAGE: 2
+Aggregate outcomes (legacy buckets):
+  ACCEPTED_AND_CORRECT: 2
+  SAFE_REJECT_InvalidTag: 570
+  SAFE_REJECT_ValueError: 2428
+JSONL audit: /tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.jsonl
+Encrypted local replay key: /tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.replay-key

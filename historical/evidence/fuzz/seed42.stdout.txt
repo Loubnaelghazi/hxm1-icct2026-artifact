@@ -1,0 +1,8 @@
+Trials: 3000  Seed: 42  Elapsed: 83.7s
+Classified outcomes:
+  EXPECTED_REJECTION: 3000
+Aggregate outcomes (legacy buckets):
+  SAFE_REJECT_InvalidTag: 539
+  SAFE_REJECT_ValueError: 2461
+JSONL audit: /tmp/hxm1_fuzz_campaign_b2uq1b4v/seed42.jsonl
+Encrypted local replay key: /tmp/hxm1_fuzz_campaign_b2uq1b4v/seed42.replay-key

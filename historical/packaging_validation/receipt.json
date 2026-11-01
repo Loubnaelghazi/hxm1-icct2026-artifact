@@ -1,0 +1,25 @@
+{
+  "new_hpke": "3/3 executed checks PASS",
+  "new_cms": "normal plaintext equality and changed-content rejection independently checked; tag/nonce preserved",
+  "packaged_reproducer_checks": "9 Python regression tests passed; JavaScript parser test file passed; 12/12 Bound Control rejections; 16 attack observations completed",
+  "packaged_reproducer_cms": "PASS with fresh RSA-3072 test certificate and dynamically located content offset",
+  "packaged_reproducer_hpke": "3/3 PASS with PyHPKE isolated dependency forwarded only to child process",
+  "performance_and_fuzz": "Existing NEW campaign evidence preserved and validated, not regenerated",
+  "system_pyhpke_still_absent": true,
+  "dependency_installation": {
+    "command": [
+      "/home/Lubna/miniconda3/bin/python3",
+      "-B",
+      "-m",
+      "pip",
+      "install",
+      "--no-deps",
+      "--no-compile",
+      "--target",
+      "/tmp/hxm1_release_0814u51j/dependency_env",
+      "pyhpke==0.6.5"
+    ],
+    "location": "/tmp/hxm1_release_0814u51j/dependency_env",
+    "system_environment_modified": false
+  }
+}

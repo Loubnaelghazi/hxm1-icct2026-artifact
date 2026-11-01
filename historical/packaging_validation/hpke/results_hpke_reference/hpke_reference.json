@@ -1,0 +1,23 @@
+{
+  "purpose": "non-feature-equivalent RFC 9180 behavior reference",
+  "suite": "Base, DHKEM(X25519, HKDF-SHA256), HKDF-SHA256, AES-256-GCM",
+  "library": "pyhpke",
+  "pyhpke_version": "0.6.5",
+  "tests": [
+    {
+      "test": "normal round trip",
+      "result": "PASS"
+    },
+    {
+      "test": "wrong AAD",
+      "result": "EXPECTED_REJECTION",
+      "exception": "OpenError"
+    },
+    {
+      "test": "modified ciphertext",
+      "result": "EXPECTED_REJECTION",
+      "exception": "OpenError"
+    }
+  ],
+  "summary": "3/3 checks passed"
+}

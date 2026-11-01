@@ -1,0 +1,220 @@
+{
+  "ratios": [
+    {
+      "payload_bytes": 128,
+      "numerator": "hybrid encrypt",
+      "denominator": "cms_cbc encrypt",
+      "numerator_median_ms": 6.293055000000001,
+      "denominator_median_ms": 7.6531725,
+      "ratio_of_medians": 0.8222805640405989,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 128,
+      "numerator": "hybrid decrypt",
+      "denominator": "cms_cbc decrypt",
+      "numerator_median_ms": 214.733644,
+      "denominator_median_ms": 9.594058,
+      "ratio_of_medians": 22.381941405815972,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 128,
+      "numerator": "hybrid encrypt",
+      "denominator": "cms_gcm encrypt",
+      "numerator_median_ms": 6.293055000000001,
+      "denominator_median_ms": 7.443296500000001,
+      "ratio_of_medians": 0.8454661184060047,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 128,
+      "numerator": "hybrid decrypt",
+      "denominator": "cms_gcm decrypt",
+      "numerator_median_ms": 214.733644,
+      "denominator_median_ms": 9.789361,
+      "ratio_of_medians": 21.935409675871593,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 128,
+      "numerator": "hybrid encrypt",
+      "denominator": "rsa encrypt",
+      "numerator_median_ms": 6.293055000000001,
+      "denominator_median_ms": 0.6140025,
+      "ratio_of_medians": 10.249233512892864,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 128,
+      "numerator": "hybrid decrypt",
+      "denominator": "rsa decrypt",
+      "numerator_median_ms": 214.733644,
+      "denominator_median_ms": 207.5119605,
+      "ratio_of_medians": 1.0348012879961201,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 128,
+      "numerator": "hybrid encrypt",
+      "denominator": "mlkem encrypt",
+      "numerator_median_ms": 6.293055000000001,
+      "denominator_median_ms": 5.6972895,
+      "ratio_of_medians": 1.1045699889394773,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 128,
+      "numerator": "hybrid decrypt",
+      "denominator": "mlkem decrypt",
+      "numerator_median_ms": 214.733644,
+      "denominator_median_ms": 7.822397499999999,
+      "ratio_of_medians": 27.45112914550814,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 16384,
+      "numerator": "hybrid encrypt",
+      "denominator": "cms_cbc encrypt",
+      "numerator_median_ms": 6.274719,
+      "denominator_median_ms": 7.3705925,
+      "ratio_of_medians": 0.8513181267313313,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 16384,
+      "numerator": "hybrid decrypt",
+      "denominator": "cms_cbc decrypt",
+      "numerator_median_ms": 215.3882875,
+      "denominator_median_ms": 9.5515115,
+      "ratio_of_medians": 22.550178314709665,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 16384,
+      "numerator": "hybrid encrypt",
+      "denominator": "cms_gcm encrypt",
+      "numerator_median_ms": 6.274719,
+      "denominator_median_ms": 7.658802,
+      "ratio_of_medians": 0.8192820495947016,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 16384,
+      "numerator": "hybrid decrypt",
+      "denominator": "cms_gcm decrypt",
+      "numerator_median_ms": 215.3882875,
+      "denominator_median_ms": 9.8647955,
+      "ratio_of_medians": 21.83403472479485,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 16384,
+      "numerator": "hybrid encrypt",
+      "denominator": "rsa encrypt",
+      "numerator_median_ms": 6.274719,
+      "denominator_median_ms": 0.612159,
+      "ratio_of_medians": 10.250145795455103,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 16384,
+      "numerator": "hybrid decrypt",
+      "denominator": "rsa decrypt",
+      "numerator_median_ms": 215.3882875,
+      "denominator_median_ms": 207.99629299999998,
+      "ratio_of_medians": 1.035539068477533,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 16384,
+      "numerator": "hybrid encrypt",
+      "denominator": "mlkem encrypt",
+      "numerator_median_ms": 6.274719,
+      "denominator_median_ms": 6.0008935,
+      "ratio_of_medians": 1.045630788148465,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 16384,
+      "numerator": "hybrid decrypt",
+      "denominator": "mlkem decrypt",
+      "numerator_median_ms": 215.3882875,
+      "denominator_median_ms": 8.069190500000001,
+      "ratio_of_medians": 26.69267598775862,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 1048576,
+      "numerator": "hybrid encrypt",
+      "denominator": "cms_cbc encrypt",
+      "numerator_median_ms": 6.892747,
+      "denominator_median_ms": 17.6037035,
+      "ratio_of_medians": 0.3915509597170845,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 1048576,
+      "numerator": "hybrid decrypt",
+      "denominator": "cms_cbc decrypt",
+      "numerator_median_ms": 216.384353,
+      "denominator_median_ms": 15.5809685,
+      "ratio_of_medians": 13.887734449883522,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 1048576,
+      "numerator": "hybrid encrypt",
+      "denominator": "cms_gcm encrypt",
+      "numerator_median_ms": 6.892747,
+      "denominator_median_ms": 16.2331785,
+      "ratio_of_medians": 0.42460858789915973,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 1048576,
+      "numerator": "hybrid decrypt",
+      "denominator": "cms_gcm decrypt",
+      "numerator_median_ms": 216.384353,
+      "denominator_median_ms": 16.251027,
+      "ratio_of_medians": 13.315118669115495,
+      "boundary": "in-memory API / CLI with startup and file I/O"
+    },
+    {
+      "payload_bytes": 1048576,
+      "numerator": "hybrid encrypt",
+      "denominator": "rsa encrypt",
+      "numerator_median_ms": 6.892747,
+      "denominator_median_ms": 0.945945,
+      "ratio_of_medians": 7.286625543768401,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 1048576,
+      "numerator": "hybrid decrypt",
+      "denominator": "rsa decrypt",
+      "numerator_median_ms": 216.384353,
+      "denominator_median_ms": 207.67073349999998,
+      "ratio_of_medians": 1.0419588227630545,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 1048576,
+      "numerator": "hybrid encrypt",
+      "denominator": "mlkem encrypt",
+      "numerator_median_ms": 6.892747,
+      "denominator_median_ms": 6.521611,
+      "ratio_of_medians": 1.0569086380650425,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    },
+    {
+      "payload_bytes": 1048576,
+      "numerator": "hybrid decrypt",
+      "denominator": "mlkem decrypt",
+      "numerator_median_ms": 216.384353,
+      "denominator_median_ms": 8.577216,
+      "ratio_of_medians": 25.227807367798597,
+      "boundary": "in-memory API / in-memory API; different KEM modes"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "rows": [
+    {
+      "system": "HXM1",
+      "mutation": "version changed",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "ValueError: unsupported HXM1 package",
+      "expected": "ValueError: unsupported HXM1 package"
+    },
+    {
+      "system": "HXM1",
+      "mutation": "mode changed",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "ValueError: unexpected ML-KEM component in RSA-only mode",
+      "expected": "ValueError: unexpected ML-KEM component in RSA-only mode"
+    },
+    {
+      "system": "HXM1",
+      "mutation": "ML-KEM bytes modified",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "InvalidTag: ",
+      "expected": "InvalidTag: "
+    },
+    {
+      "system": "HXM1",
+      "mutation": "ML-KEM bytes removed with consistent lengths",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid ML-KEM ciphertext length",
+      "expected": "ValueError: invalid ML-KEM ciphertext length"
+    },
+    {
+      "system": "HXM1",
+      "mutation": "AAD changed",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "InvalidTag: ",
+      "expected": "InvalidTag: "
+    },
+    {
+      "system": "HXM1",
+      "mutation": "trailing byte",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid HXM1 package length",
+      "expected": "ValueError: invalid HXM1 package length"
+    },
+    {
+      "system": "Bound control (not a standard)",
+      "mutation": "version changed",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "ValueError: unsupported control mode/version",
+      "expected": "ValueError: unsupported control mode/version"
+    },
+    {
+      "system": "Bound control (not a standard)",
+      "mutation": "mode changed",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "ValueError: unsupported control mode/version",
+      "expected": "ValueError: unsupported control mode/version"
+    },
+    {
+      "system": "Bound control (not a standard)",
+      "mutation": "ML-KEM bytes modified",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "InvalidTag: ",
+      "expected": "InvalidTag: "
+    },
+    {
+      "system": "Bound control (not a standard)",
+      "mutation": "ML-KEM bytes removed with consistent lengths",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid control component lengths",
+      "expected": "ValueError: invalid control component lengths"
+    },
+    {
+      "system": "Bound control (not a standard)",
+      "mutation": "AAD changed",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "InvalidTag: ",
+      "expected": "InvalidTag: "
+    },
+    {
+      "system": "Bound control (not a standard)",
+      "mutation": "trailing byte",
+      "outcome": "EXPECTED_REJECTION",
+      "detail": "ValueError: invalid control total length",
+      "expected": "ValueError: invalid control total length"
+    }
+  ],
+  "note": "Targeted parser/context observations only. No IND-CCA or standard conformance claim."
+}

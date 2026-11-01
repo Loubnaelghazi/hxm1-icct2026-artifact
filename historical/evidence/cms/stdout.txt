@@ -1,0 +1,24 @@
+Original CMS generated.
+
+=== ORIGINAL CMS ===
+Decryption: SUCCESS
+
+Tampering performed:
+  ciphertext offset : 540
+  original byte     : 0x0C
+  modified byte     : 0x0D
+  modification      : 1-bit flip
+  authentication tag : UNCHANGED
+
+=== TAMPERED CMS ===
+Decryption rejected tampered CMS.
+OpenSSL error:
+Error decrypting CMS structure
+
+============================================================
+CMS AUTHENTICITY SANITY CHECK
+============================================================
+Original accepted : True
+Tampered rejected : True
+
+RESULT: PASS

@@ -1,0 +1,13 @@
+# Review snapshot and validation scope
+
+This repository is derived from the full local HXM1 ICCT2026 reproducibility ZIP (529 files; 71,304,590 bytes; SHA-256 `c0c128872ef24e36ba070dae0b1d92e874bd39bedc2b2df74e87153b078a2bcd`). The source ZIP remains unchanged. The repository adds Git hygiene/review metadata and updates the root README for public review access; cryptographic algorithms, original test assertions and archived results are unchanged.
+
+The full package was extracted and validated locally: 11 suites passed with runner exit 0, including 13 Python tests, 9 stored-vector JS tests, 9 fresh-vector JS tests, 16 functional checks, a 9-entry mode matrix, 16 targeted attack outcomes, 12 Bound Control rejection checks, 3 HPKE checks and fresh CMS-GCM normal/tampered operations. Hybrid overhead was 1515 bytes.
+
+Historical campaign evidence in `historical/evidence/` supports the manuscript numbers: 6000 fuzz submissions, 5998 changed-input rejections, 2 unchanged acceptances and 5259 distinct inputs. Archived performance contains 900 measured and 90 warm-up operation samples; all 30 statistical summaries were recalculated from raw data. The separate fresh validation produced 5996 changed-input rejections and 4 unchanged acceptances; fresh benchmark times were independently checked and need not equal manuscript values. No unexpected changed-input acceptance or cryptographic test failure was observed. These are experimental observations, not a security proof.
+
+Seven historical cryptographic checks remain explicitly skipped because private fixtures are excluded: three stored-vector decryptions, two accepted historical fuzz replays and two historical CMS decryptions. Their available records/hashes/structure are checked; fresh equivalents use disposable local credentials. This full review repository includes the 192 extra historical benchmark ciphertexts omitted from the separate compact CMT ZIP.
+
+The release's preliminary orchestration errors were corrected before the full successful validation. Publishing this review snapshot does not represent a new full fuzz/benchmark run. Before initial Git publication, byte identity of protected source/evidence, complete manifest membership and sensitive-data checks are verified again. A new Git history is created without importing historical project Git history.
+
+Licensing is pending author approval. No license grant, DOI, production-security claim, IND-CCA proof or one-secure-component guarantee is added. The original archive's manifests and provenance are retained; old absolute paths are historical metadata, not instructions to access the authors' machine. Use the root `reproduce.py` and `verify_evidence.py` entrypoints.

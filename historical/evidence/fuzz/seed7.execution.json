@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/home/Lubna/miniconda3/bin/python3",
+    "-B",
+    "fuzz_hxm1_parser.py",
+    "--trials",
+    "3000",
+    "--seed",
+    "7",
+    "--jsonl",
+    "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.jsonl",
+    "--replay-key",
+    "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.replay-key"
+  ],
+  "returncode": 0,
+  "started_utc": "2026-10-24T14:19:35.004042+00:00",
+  "finished_utc": "2026-10-24T14:21:10.574454+00:00"
+}

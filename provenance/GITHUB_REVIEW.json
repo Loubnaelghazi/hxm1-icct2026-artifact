@@ -1,0 +1,18 @@
+{
+  "upstream_full_zip_sha256": "c0c128872ef24e36ba070dae0b1d92e874bd39bedc2b2df74e87153b078a2bcd",
+  "repository": "https://github.com/Loubnaelghazi/hxm1-icct2026-artifact",
+  "visibility_authorized": "public",
+  "license": "pending author approval; no license added",
+  "purpose": "Research artifact for review; no DOI-bearing deposit claimed",
+  "changed_from_full_zip": [
+    "README.md",
+    "MANIFEST.sha256"
+  ],
+  "added": [
+    ".gitignore",
+    ".gitattributes",
+    "REVIEW_STATUS.md",
+    "provenance/GITHUB_REVIEW.json"
+  ],
+  "protected_content": "All original cryptographic source, test assertions, experimental records and archival provenance remain byte-identical"
+}

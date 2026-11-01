@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/home/Lubna/miniconda3/bin/python3",
+    "-B",
+    "/home/Lubna/projects/ia/cryptography/hxm1_artifacts_20261024_0814u51j/hxm1-artifact/reproduce.py",
+    "--suite",
+    "hpke",
+    "--output",
+    "/tmp/hxm1_release_0814u51j/archive_hpke_with_isolated_dependency"
+  ],
+  "child_only_PYTHONPATH": "/tmp/hxm1_release_0814u51j/dependency_env",
+  "returncode": 0,
+  "stdout": "3/3 checks passed\nsaved results_hpke_reference/hpke_reference.json\n",
+  "stderr": "",
+  "initial_launcher_check": "An earlier invocation forwarded sys.path only to the parent and failed to locate PyHPKE in the child. No source change was needed; child-only search path fixed."
+}

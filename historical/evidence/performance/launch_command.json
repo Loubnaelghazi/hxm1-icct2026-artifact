@@ -1,0 +1,13 @@
+[
+  "/home/Lubna/miniconda3/bin/python3",
+  "-B",
+  "/tmp/hxm1_performance_9161q8yp/benchmark_campaign.py",
+  "--project",
+  "/home/Lubna/projects/ia/cryptography/cryptgography_paper",
+  "--output",
+  "/tmp/hxm1_performance_9161q8yp",
+  "--repetitions",
+  "30",
+  "--warmups",
+  "3"
+]

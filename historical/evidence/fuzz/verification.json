@@ -1,0 +1,231 @@
+{
+  "runs": [
+    {
+      "seed": 42,
+      "requested": 3000,
+      "generated": 3000,
+      "submitted": 3000,
+      "completed": 3000,
+      "changed": 3000,
+      "unchanged": 0,
+      "unique_inputs": 2635,
+      "duplicate_occurrences_beyond_first": 365,
+      "distinct_inputs_repeated": 280,
+      "rejected": 3000,
+      "accepted": 0,
+      "unexpected_exceptions": 0,
+      "accepted_wrong_plaintext": 0,
+      "unexplained_accepts": 0,
+      "outcomes": {
+        "EXPECTED_REJECTION": 3000
+      },
+      "exceptions": {
+        "ValueError": 2461,
+        "InvalidTag": 539
+      },
+      "branches": {
+        "extend": 1228,
+        "truncate": 1220,
+        "byte_mutation": 552
+      },
+      "accepted_cases": [],
+      "stdout_matches_jsonl": true,
+      "seeded_mutations_reconstructed": true,
+      "exit_code": 0
+    },
+    {
+      "seed": 7,
+      "requested": 3000,
+      "generated": 3000,
+      "submitted": 3000,
+      "completed": 3000,
+      "changed": 2998,
+      "unchanged": 2,
+      "unique_inputs": 2629,
+      "duplicate_occurrences_beyond_first": 371,
+      "distinct_inputs_repeated": 282,
+      "rejected": 2998,
+      "accepted": 2,
+      "unexpected_exceptions": 0,
+      "accepted_wrong_plaintext": 0,
+      "unexplained_accepts": 0,
+      "outcomes": {
+        "EXPECTED_REJECTION": 2998,
+        "UNCHANGED_VALID_PACKAGE": 2
+      },
+      "exceptions": {
+        "ValueError": 2428,
+        "InvalidTag": 570
+      },
+      "branches": {
+        "truncate": 1224,
+        "extend": 1186,
+        "byte_mutation": 590
+      },
+      "accepted_cases": [
+        {
+          "trial": 1012,
+          "outcome": "UNCHANGED_VALID_PACKAGE",
+          "unchanged": true,
+          "plaintext_matches": true,
+          "cause": "unchanged input: every assignment was a no-op",
+          "mutation_details": {
+            "branch": "byte_mutation",
+            "final_package_changed": false,
+            "operation_count": 1,
+            "operations": [
+              {
+                "after_byte": 52,
+                "assigned_byte": 52,
+                "before_byte": 52,
+                "changed_at_operation": false,
+                "operation": 1,
+                "position": 1283
+              }
+            ]
+          },
+          "input_sha256": "dbded8ede5ec1cac1d4d55322ba6a5033ef71c7f6367e424d411af0fa3616378"
+        },
+        {
+          "trial": 1167,
+          "outcome": "UNCHANGED_VALID_PACKAGE",
+          "unchanged": true,
+          "plaintext_matches": true,
+          "cause": "unchanged input: every assignment was a no-op",
+          "mutation_details": {
+            "branch": "byte_mutation",
+            "final_package_changed": false,
+            "operation_count": 1,
+            "operations": [
+              {
+                "after_byte": 166,
+                "assigned_byte": 166,
+                "before_byte": 166,
+                "changed_at_operation": false,
+                "operation": 1,
+                "position": 831
+              }
+            ]
+          },
+          "input_sha256": "dbded8ede5ec1cac1d4d55322ba6a5033ef71c7f6367e424d411af0fa3616378"
+        }
+      ],
+      "stdout_matches_jsonl": true,
+      "seeded_mutations_reconstructed": true,
+      "exit_code": 0
+    }
+  ],
+  "combined_unique_inputs": 5259,
+  "combined_duplicate_occurrences_beyond_first": 741,
+  "project_files_unchanged": true,
+  "files": [
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/provenance.json",
+      "bytes": 8235,
+      "mode": "0o644",
+      "sha256": "011b32cd38cb65a06f0e4f2795b3b6f67d5f96b189f5c4ff1582db0611c9a671"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed42.command.txt",
+      "bytes": 200,
+      "mode": "0o644",
+      "sha256": "8a8a2ab8a9bc6436ca71ba06e47944b21f9426ab7b58a377f5a896fcc01c15ce"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed42.execution.json",
+      "bytes": 425,
+      "mode": "0o644",
+      "sha256": "dfaa7482a51c0bbe7553c3bd622172203c455d7f13925a44cfe652bf8faab4ad"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed42.jsonl",
+      "bytes": 13210634,
+      "mode": "0o644",
+      "sha256": "554fcd456cb0d43b5efa0b4b57c8ba29fa574f3872448caac8ddc92f4c4d440d"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed42.passphrase",
+      "bytes": 44,
+      "mode": "0o600",
+      "sha256": "f7622333966d8109f62f7e9925cf94e99f141d14cc434383854b6a534aac92a5"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed42.replay-key",
+      "bytes": 6620,
+      "mode": "0o600",
+      "sha256": "bc21b1707e0862767ee13d4ea911e74205b560fc55dbadf4548a817194e22e8b"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed42.stderr.txt",
+      "bytes": 304,
+      "mode": "0o644",
+      "sha256": "d31ccbaa9207ad0be9da7586f169c6ece47dbb913f0b9c3e399b33f8d72241ed"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed42.stdout.txt",
+      "bytes": 323,
+      "mode": "0o644",
+      "sha256": "2e97fb08964ce51de59fc9b716d81e18b2f90875890a26e5e582342d8b8e1c96"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.command.txt",
+      "bytes": 197,
+      "mode": "0o644",
+      "sha256": "34189e14181ffc4f6dfe6d56824077f2fd0aadbeebaabc5c213b5f2aa2b1ca17"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.execution.json",
+      "bytes": 422,
+      "mode": "0o644",
+      "sha256": "6e8b0a4e0c9515f526b24fd8c443b68038547b7d578327db676d4d84162617bb"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.jsonl",
+      "bytes": 13157230,
+      "mode": "0o644",
+      "sha256": "9e61927402f211fec89055a963bfae073efdecf9b7a3052937925c37a223a835"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.passphrase",
+      "bytes": 44,
+      "mode": "0o600",
+      "sha256": "5ac8015ea70610b2762cacecf17853932bd6c528d38fac83bc8b342df94075c7"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.replay-key",
+      "bytes": 6620,
+      "mode": "0o600",
+      "sha256": "2f186bfe7618265ba3f5616aebfe7ba42187e2a6ceb878e4d8972b28bea66a4b"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.stderr.txt",
+      "bytes": 304,
+      "mode": "0o644",
+      "sha256": "d31ccbaa9207ad0be9da7586f169c6ece47dbb913f0b9c3e399b33f8d72241ed"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/seed7.stdout.txt",
+      "bytes": 375,
+      "mode": "0o644",
+      "sha256": "d17f29eec1fab47c163675e8d6cc727b55792f56d0d3c4f8243201b2ff597c5e"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/source_fuzz_hxm1_parser.py",
+      "bytes": 15483,
+      "mode": "0o644",
+      "sha256": "9e332c394ce9a7eacaeb8f44c822e46af5bd7914acbc95e7d4b5309b14c040bb"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/source_hybrid_rsa_mlkem.py",
+      "bytes": 14641,
+      "mode": "0o644",
+      "sha256": "7917c412f4e1d8c17fb9562f2c52d05480fd8b24a3976f58b84ce3db22d596a1"
+    },
+    {
+      "path": "/tmp/hxm1_fuzz_campaign_b2uq1b4v/verify_campaign.py",
+      "bytes": 6553,
+      "mode": "0o644",
+      "sha256": "c690a1c47fe61a9db0aa5546bae302b1823a5028dad93c4741e898a1429069b8"
+    }
+  ]
+}

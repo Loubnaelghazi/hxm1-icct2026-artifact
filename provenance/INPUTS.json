@@ -1,0 +1,3652 @@
+{
+  "archive_filename": "hxm1-artifact-2026-10-24.tar.gz",
+  "archive_bytes": 71266776,
+  "archive_sha256": "315e7c6db3390cbbeea829a456925643b74f547ee33342efb264d6ded230ad17",
+  "original_manifest_entries": 516,
+  "original_regular_files": 517,
+  "candidate_files": 35,
+  "license": "Pending author approval; no license grant added",
+  "publication": "Not publicly deposited; no DOI assigned",
+  "included_originals": [
+    {
+      "path": "source/.gitignore",
+      "origin": "cleaned_candidate",
+      "original_path": ".gitignore",
+      "sha256": "4316ea78374ec9fecb6404195ebdb1c0dbebd757892a3584aba6e681cf954929",
+      "bytes": 407
+    },
+    {
+      "path": "provenance/candidate_documentation_original/ARTIFACT_EVALUATION.md",
+      "origin": "cleaned_candidate",
+      "original_path": "ARTIFACT_EVALUATION.md",
+      "sha256": "7bdced725a0557c0c328b3feb1b75058cbbb85936228ec74c2f5f0b7d3d85865",
+      "bytes": 3065
+    },
+    {
+      "path": "provenance/candidate_documentation_original/LIBRARY_COMPARISON.md",
+      "origin": "cleaned_candidate",
+      "original_path": "LIBRARY_COMPARISON.md",
+      "sha256": "b72839091f7755f4320978390abee95bde50e10e674963f3b40486708eba3326",
+      "bytes": 3862
+    },
+    {
+      "path": "provenance/candidate_documentation_original/PUBLICATION_CHECKLIST.md",
+      "origin": "cleaned_candidate",
+      "original_path": "PUBLICATION_CHECKLIST.md",
+      "sha256": "3d7222ba0da1ad2ba44dcd66c3cf0f6efff598f3656bd6ae3e13432ac51689d5",
+      "bytes": 659
+    },
+    {
+      "path": "provenance/candidate_documentation_original/README.md",
+      "origin": "cleaned_candidate",
+      "original_path": "README.md",
+      "sha256": "d651e7585aa0480de60a6327f284beea1de35ea44eb7467878393df921b5f768",
+      "bytes": 3609
+    },
+    {
+      "path": "source/attack_experiments.py",
+      "origin": "cleaned_candidate",
+      "original_path": "attack_experiments.py",
+      "sha256": "dd0c431626a39bf184919d09ea25ee4f6dfe52531dc5f337ec220687120029b2",
+      "bytes": 13838
+    },
+    {
+      "path": "source/bound_envelope_control.py",
+      "origin": "cleaned_candidate",
+      "original_path": "bound_envelope_control.py",
+      "sha256": "40b4b06866a2e9a06907f34bf02c3a14ab0e2380f38dd82f1662cfffa6468ae9",
+      "bytes": 2946
+    },
+    {
+      "path": "source/compare_bound_control.py",
+      "origin": "cleaned_candidate",
+      "original_path": "compare_bound_control.py",
+      "sha256": "273e0b8e2663f9fc436b5105f22dfdd99c8628baa36a3b4fb80cd7ac1afc0907",
+      "bytes": 5071
+    },
+    {
+      "path": "source/fuzz_compare_baselines.py",
+      "origin": "cleaned_candidate",
+      "original_path": "fuzz_compare_baselines.py",
+      "sha256": "1fa84602e595d297736f2fef1fe73aaffdb8e12f19495a8bf8353ab2da9eeead",
+      "bytes": 8175
+    },
+    {
+      "path": "source/fuzz_hxm1_parser.py",
+      "origin": "cleaned_candidate",
+      "original_path": "fuzz_hxm1_parser.py",
+      "sha256": "9e332c394ce9a7eacaeb8f44c822e46af5bd7914acbc95e7d4b5309b14c040bb",
+      "bytes": 15483
+    },
+    {
+      "path": "source/hxm1_cli.py",
+      "origin": "cleaned_candidate",
+      "original_path": "hxm1_cli.py",
+      "sha256": "e13d0c3bd97b2e88d6a260320e07b34b5cdf1c45493af82c676cf41024a19f8d",
+      "bytes": 3453
+    },
+    {
+      "path": "source/hxm1_parser.js",
+      "origin": "cleaned_candidate",
+      "original_path": "hxm1_parser.js",
+      "sha256": "8cdf93bb2f2639d376e6c529677a72fa0f369a73c05687876f1c9ccf84393dbb",
+      "bytes": 2483
+    },
+    {
+      "path": "source/hybrid_rsa_mlkem.py",
+      "origin": "cleaned_candidate",
+      "original_path": "hybrid_rsa_mlkem.py",
+      "sha256": "7917c412f4e1d8c17fb9562f2c52d05480fd8b24a3976f58b84ce3db22d596a1",
+      "bytes": 14641
+    },
+    {
+      "path": "source/make_test_vectors.py",
+      "origin": "cleaned_candidate",
+      "original_path": "make_test_vectors.py",
+      "sha256": "865a73800ea07c0ca32e4f3f464b7ece10c05b4596b157bd539ec90925291924",
+      "bytes": 1753
+    },
+    {
+      "path": "source/openssl_cms_bench/bench_openssl_cms.py",
+      "origin": "cleaned_candidate",
+      "original_path": "openssl_cms_bench/bench_openssl_cms.py",
+      "sha256": "cd96587a48bec875e9424a6402a16e564b69c1c97778db9f92c2bb6cfd37bf03",
+      "bytes": 3364
+    },
+    {
+      "path": "source/openssl_cms_bench/bench_openssl_cms_gcm.py",
+      "origin": "cleaned_candidate",
+      "original_path": "openssl_cms_bench/bench_openssl_cms_gcm.py",
+      "sha256": "0a5dd10b38c1bd9721c4caae50321fb89a978cbb747e482b0cbd8a0016716ece",
+      "bytes": 3250
+    },
+    {
+      "path": "source/openssl_cms_bench/inspect_cms.py",
+      "origin": "cleaned_candidate",
+      "original_path": "openssl_cms_bench/inspect_cms.py",
+      "sha256": "555a9d26d6f986398dbd1df1508824bae5689a44fafb39ed126dc653e1b21597",
+      "bytes": 1565
+    },
+    {
+      "path": "source/openssl_cms_bench/test_cms_tampering.py",
+      "origin": "cleaned_candidate",
+      "original_path": "openssl_cms_bench/test_cms_tampering.py",
+      "sha256": "e9d158207dbbe35b5383e024402a10dd80427879a38cc5fe2ab019bc9b9afd00",
+      "bytes": 3917
+    },
+    {
+      "path": "source/requirements.txt",
+      "origin": "cleaned_candidate",
+      "original_path": "requirements.txt",
+      "sha256": "cdff7d1b0ba36db5f5a19e51f662bfe8379155e56b47348df82cf1e53635d0f4",
+      "bytes": 51
+    },
+    {
+      "path": "source/results_attacks/attack_results.json",
+      "origin": "cleaned_candidate",
+      "original_path": "results_attacks/attack_results.json",
+      "sha256": "39591e3909a06afc9f4262dfcba712a11fb363cbcb90ea827a05c98bb0202af5",
+      "bytes": 4007
+    },
+    {
+      "path": "source/results_attacks/attack_results.md",
+      "origin": "cleaned_candidate",
+      "original_path": "results_attacks/attack_results.md",
+      "sha256": "8d82a1981227a573861e465c00f02d5b117b207477d2463b886f15a55565dc9b",
+      "bytes": 2406
+    },
+    {
+      "path": "source/results_bound_control_verified/comparison.json",
+      "origin": "cleaned_candidate",
+      "original_path": "results_bound_control_verified/comparison.json",
+      "sha256": "1fa701a6c8519a925429140e588440602db03eb65d8eb9a22c820a8b0b364748",
+      "bytes": 2965
+    },
+    {
+      "path": "source/results_bound_control_verified/comparison.md",
+      "origin": "cleaned_candidate",
+      "original_path": "results_bound_control_verified/comparison.md",
+      "sha256": "e8fa1f1208d9b27573de377c6985fb8d938c8e6d5e733d3348c88bdb7badca87",
+      "bytes": 1454
+    },
+    {
+      "path": "source/run_experiments.py",
+      "origin": "cleaned_candidate",
+      "original_path": "run_experiments.py",
+      "sha256": "7698545c4a4366c386fc611e20b04b4959a717f1329278462f4633954a9771a4",
+      "bytes": 16699
+    },
+    {
+      "path": "source/test_comparison_verified.py",
+      "origin": "cleaned_candidate",
+      "original_path": "test_comparison_verified.py",
+      "sha256": "b000562492deba968a515cae145c0fc84385e5ad81079aee42239adb7bb38b18",
+      "bytes": 1646
+    },
+    {
+      "path": "source/test_hpke_reference.py",
+      "origin": "cleaned_candidate",
+      "original_path": "test_hpke_reference.py",
+      "sha256": "fb04251ce7b14602f5ee1365ff68e2cad4c9c0aff565e2e1a5a9ac5d923a125f",
+      "bytes": 2761
+    },
+    {
+      "path": "source/test_hxm1_parser.js",
+      "origin": "cleaned_candidate",
+      "original_path": "test_hxm1_parser.js",
+      "sha256": "2532913ca21bafdc89f977a83bed9227ea9ae4c9e1d880d851e290e553334c1f",
+      "bytes": 1439
+    },
+    {
+      "path": "source/test_security_regressions.py",
+      "origin": "cleaned_candidate",
+      "original_path": "test_security_regressions.py",
+      "sha256": "560ea3c71479adf6ccc04fbd9d439b118689e3cb3cad50bae7152dbafe51ba2f",
+      "bytes": 5021
+    },
+    {
+      "path": "source/test_vectors/hybrid.hxm1",
+      "origin": "cleaned_candidate",
+      "original_path": "test_vectors/hybrid.hxm1",
+      "sha256": "b2a4bdf2c7d719dd1667dd4bc1a5c470c206cb96dd5eef820e31fdba68cd6ea0",
+      "bytes": 1579
+    },
+    {
+      "path": "source/test_vectors/mlkem.hxm1",
+      "origin": "cleaned_candidate",
+      "original_path": "test_vectors/mlkem.hxm1",
+      "sha256": "c7a1727d30b5a319391cfae1859cebb0ac1618c34b21397c947c9402bbd91e57",
+      "bytes": 1195
+    },
+    {
+      "path": "source/test_vectors/plaintext.bin",
+      "origin": "cleaned_candidate",
+      "original_path": "test_vectors/plaintext.bin",
+      "sha256": "90a47527a95ac3a0a7388fa5e0d763c72e65412411d1cca6b9edf6aff01ba86b",
+      "bytes": 64
+    },
+    {
+      "path": "source/test_vectors/public_key.json",
+      "origin": "cleaned_candidate",
+      "original_path": "test_vectors/public_key.json",
+      "sha256": "5f25792bb2ff76de242ac10fc0dbae02507e177d44e25386a87500ee5c582bfd",
+      "bytes": 2462
+    },
+    {
+      "path": "source/test_vectors/rsa.hxm1",
+      "origin": "cleaned_candidate",
+      "original_path": "test_vectors/rsa.hxm1",
+      "sha256": "6246767d1f08aacf606578f79cbf1a774bec6ee19f13e0b48ae72a118796bf08",
+      "bytes": 491
+    },
+    {
+      "path": "source/test_vectors/vectors.json",
+      "origin": "cleaned_candidate",
+      "original_path": "test_vectors/vectors.json",
+      "sha256": "fe9fa6d898a9253e77ef6c5c1ed5f2f8763706b0c82a1cc7d80daae14a05a295",
+      "bytes": 1745
+    },
+    {
+      "path": "source/vulnerable_baselines.py",
+      "origin": "cleaned_candidate",
+      "original_path": "vulnerable_baselines.py",
+      "sha256": "d54ab71a5bbd2b7037b3e0b4c285590d4604e60da3619d2d0eea3d0e568a1a99",
+      "bytes": 7677
+    },
+    {
+      "path": "historical/ARCHIVE_GUIDE.md",
+      "origin": "verified_experimental_archive",
+      "original_path": "ARCHIVE_GUIDE.md",
+      "sha256": "604723c5394ab4b19ce16d4034a692dfa816d2188d8d7834906315347ec47c2b",
+      "bytes": 4850
+    },
+    {
+      "path": "historical/MANIFEST.sha256.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "MANIFEST.sha256.json",
+      "sha256": "ada727129ed1301d773ace18d045b570f990ac0d7b0304d8e68173172cb53cd6",
+      "bytes": 63081
+    },
+    {
+      "path": "historical/RELEASE_STATUS.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "RELEASE_STATUS.json",
+      "sha256": "fbbbe8f89e63823496f1417f30af84791bb81ca75921263c4e5dc5b8c4f3da5b",
+      "bytes": 413
+    },
+    {
+      "path": "historical/evidence/cms/asn1parse.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/asn1parse.txt",
+      "sha256": "9d795adea5e824c2cbca2f2a3db7f16b9d5324fb32d1cc9a03cd159404e5327d",
+      "bytes": 2340
+    },
+    {
+      "path": "historical/evidence/cms/cert.pem",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/cert.pem",
+      "sha256": "6d8c2f9417af177c8f90f41f0ac432d55020aab91be649747d31198b27ef04f5",
+      "bytes": 1472
+    },
+    {
+      "path": "historical/evidence/cms/independent_original.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/independent_original.dec",
+      "sha256": "b99ea78fd249b898ab2b21c849b471cec8e97a87f82c2f1fef6d043d9fda00f0",
+      "bytes": 47
+    },
+    {
+      "path": "historical/evidence/cms/stderr.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "historical/evidence/cms/stdout.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/stdout.txt",
+      "sha256": "c3e6f1a3790c602a8325ae88e054c3ef536dc31e8bd7da449647544a521efaa1",
+      "bytes": 553
+    },
+    {
+      "path": "historical/evidence/cms/tamper_modified.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/tamper_modified.cms",
+      "sha256": "278f96f93fefa49f49686716af78c44e7b21af270a73d884a6123a3eeda4568e",
+      "bytes": 605
+    },
+    {
+      "path": "historical/evidence/cms/tamper_original.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/tamper_original.cms",
+      "sha256": "6209691e379421c22ad87ef8348a7004ff1e9e8ab8397288f53d28a75dfe361a",
+      "bytes": 605
+    },
+    {
+      "path": "historical/evidence/cms/tamper_original.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/tamper_original.dec",
+      "sha256": "b99ea78fd249b898ab2b21c849b471cec8e97a87f82c2f1fef6d043d9fda00f0",
+      "bytes": 47
+    },
+    {
+      "path": "historical/evidence/cms/tamper_plain.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/tamper_plain.bin",
+      "sha256": "b99ea78fd249b898ab2b21c849b471cec8e97a87f82c2f1fef6d043d9fda00f0",
+      "bytes": 47
+    },
+    {
+      "path": "historical/evidence/cms/test_cms_tampering.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/test_cms_tampering.py",
+      "sha256": "e9d158207dbbe35b5383e024402a10dd80427879a38cc5fe2ab019bc9b9afd00",
+      "bytes": 3917
+    },
+    {
+      "path": "historical/evidence/cms/verification.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/cms/verification.json",
+      "sha256": "dec50a8331418b1e118777d36c98c2076ca5b238d8b58fd9724db487851faa19",
+      "bytes": 1574
+    },
+    {
+      "path": "historical/evidence/fuzz/provenance.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/provenance.json",
+      "sha256": "011b32cd38cb65a06f0e4f2795b3b6f67d5f96b189f5c4ff1582db0611c9a671",
+      "bytes": 8235
+    },
+    {
+      "path": "historical/evidence/fuzz/seed42.command.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed42.command.txt",
+      "sha256": "8a8a2ab8a9bc6436ca71ba06e47944b21f9426ab7b58a377f5a896fcc01c15ce",
+      "bytes": 200
+    },
+    {
+      "path": "historical/evidence/fuzz/seed42.execution.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed42.execution.json",
+      "sha256": "dfaa7482a51c0bbe7553c3bd622172203c455d7f13925a44cfe652bf8faab4ad",
+      "bytes": 425
+    },
+    {
+      "path": "historical/evidence/fuzz/seed42.jsonl",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed42.jsonl",
+      "sha256": "554fcd456cb0d43b5efa0b4b57c8ba29fa574f3872448caac8ddc92f4c4d440d",
+      "bytes": 13210634
+    },
+    {
+      "path": "historical/evidence/fuzz/seed42.stderr.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed42.stderr.txt",
+      "sha256": "d31ccbaa9207ad0be9da7586f169c6ece47dbb913f0b9c3e399b33f8d72241ed",
+      "bytes": 304
+    },
+    {
+      "path": "historical/evidence/fuzz/seed42.stdout.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed42.stdout.txt",
+      "sha256": "2e97fb08964ce51de59fc9b716d81e18b2f90875890a26e5e582342d8b8e1c96",
+      "bytes": 323
+    },
+    {
+      "path": "historical/evidence/fuzz/seed7.command.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed7.command.txt",
+      "sha256": "34189e14181ffc4f6dfe6d56824077f2fd0aadbeebaabc5c213b5f2aa2b1ca17",
+      "bytes": 197
+    },
+    {
+      "path": "historical/evidence/fuzz/seed7.execution.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed7.execution.json",
+      "sha256": "6e8b0a4e0c9515f526b24fd8c443b68038547b7d578327db676d4d84162617bb",
+      "bytes": 422
+    },
+    {
+      "path": "historical/evidence/fuzz/seed7.jsonl",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed7.jsonl",
+      "sha256": "9e61927402f211fec89055a963bfae073efdecf9b7a3052937925c37a223a835",
+      "bytes": 13157230
+    },
+    {
+      "path": "historical/evidence/fuzz/seed7.stderr.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed7.stderr.txt",
+      "sha256": "d31ccbaa9207ad0be9da7586f169c6ece47dbb913f0b9c3e399b33f8d72241ed",
+      "bytes": 304
+    },
+    {
+      "path": "historical/evidence/fuzz/seed7.stdout.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/seed7.stdout.txt",
+      "sha256": "d17f29eec1fab47c163675e8d6cc727b55792f56d0d3c4f8243201b2ff597c5e",
+      "bytes": 375
+    },
+    {
+      "path": "historical/evidence/fuzz/source_fuzz_hxm1_parser.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/source_fuzz_hxm1_parser.py",
+      "sha256": "9e332c394ce9a7eacaeb8f44c822e46af5bd7914acbc95e7d4b5309b14c040bb",
+      "bytes": 15483
+    },
+    {
+      "path": "historical/evidence/fuzz/source_hybrid_rsa_mlkem.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/source_hybrid_rsa_mlkem.py",
+      "sha256": "7917c412f4e1d8c17fb9562f2c52d05480fd8b24a3976f58b84ce3db22d596a1",
+      "bytes": 14641
+    },
+    {
+      "path": "historical/evidence/fuzz/verification.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/verification.json",
+      "sha256": "54ea4b84431f4c8bd24f0dd137a14f981cb33c26aecac72dd6f3b72ec2a9dd82",
+      "bytes": 7164
+    },
+    {
+      "path": "historical/evidence/fuzz/verify_campaign.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/fuzz/verify_campaign.py",
+      "sha256": "c690a1c47fe61a9db0aa5546bae302b1823a5028dad93c4741e898a1429069b8",
+      "bytes": 6553
+    },
+    {
+      "path": "historical/evidence/hpke/execution.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/hpke/execution.json",
+      "sha256": "d99313f40a0e38ec820189bce0d49a9f15a8e4b4ac4b66a90a56f9cd82ce7c22",
+      "bytes": 450
+    },
+    {
+      "path": "historical/evidence/hpke/results_hpke_reference/hpke_reference.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/hpke/results_hpke_reference/hpke_reference.json",
+      "sha256": "afc170923be900078e63dab93a682b14cb33184988b25b629b51c2b2fc050f28",
+      "bytes": 545
+    },
+    {
+      "path": "historical/evidence/hpke/stderr.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/hpke/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "historical/evidence/hpke/stdout.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/hpke/stdout.txt",
+      "sha256": "eb282b5790e24501bd0b84779ebfbc592257ad2d164be1322f2c077fbceb7cda",
+      "bytes": 67
+    },
+    {
+      "path": "historical/evidence/performance/benchmark_campaign.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/benchmark_campaign.py",
+      "sha256": "85908b5c8f6d6304026fe8cef45af3121212e9ec5d44c2982bf2b550683471bc",
+      "bytes": 12297
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_001.cms",
+      "sha256": "5d06a5a7037461b4f270970d4a47d2c16e4b3abf0c8ceef63b4485da44f70a88",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_001.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_002.cms",
+      "sha256": "ae49bc041583b971251268b1f4bd74896ec1010048110d01723c88b743ac582c",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_002.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_003.cms",
+      "sha256": "06f490eba280938113842c985be56ea84731a81c9e0d546dbe980358fd099e25",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_003.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_004.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_004.cms",
+      "sha256": "0f925dd65e276de78ca16bc4c3cdaf718ba4a3cc759953f3bbfc280aa2aecf59",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_004.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_004.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_005.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_005.cms",
+      "sha256": "2e362ef7790c8a120ae2f9a049bbbdeb6546e36c0967f59c2419cf495d100772",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_005.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_005.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_006.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_006.cms",
+      "sha256": "a75a5a8929bef90253e061eee79383cdfe73a76e0a7d5143636055c088684673",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_006.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_006.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_007.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_007.cms",
+      "sha256": "31951fb369622a79e5edd0e894e7f640a712048db7b6ee9014709ed96492beab",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_007.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_007.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_008.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_008.cms",
+      "sha256": "31e7a5562645402269da322bdb6e000f8ebd67845b9722a9adb663dad47769c2",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_008.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_008.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_009.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_009.cms",
+      "sha256": "cc2add549fcdd865a2b9c133d6532f54f98e77542fa619c29c8e9645954e7bda",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_009.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_009.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_010.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_010.cms",
+      "sha256": "9d39193ea9b0fd8a566b0036d387cba625e102e6da9f2288f1a2b386194cb37b",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_010.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_010.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_011.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_011.cms",
+      "sha256": "974672fc5d9c4be613e7c908451bce05d8a785b0a318542f81c3325317e5d29c",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_011.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_011.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_012.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_012.cms",
+      "sha256": "a06692b9d7e8b026f557d819860225deda9acd5cb0a16a7f72011517b3790067",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_012.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_012.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_013.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_013.cms",
+      "sha256": "8c6d2aa2274d522032e9830a88c1c40da5f5e2fb52e642057d76bf1c78f88e6d",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_013.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_013.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_014.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_014.cms",
+      "sha256": "efab111e4a2a2230e5c878a69ba88fd6f1f0289ad44183e36cf2382251e0cabd",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_014.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_014.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_015.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_015.cms",
+      "sha256": "660c32399c6a7f65ca07d6d4d987d7657ce944a98184c45673b4fee4bbb6f251",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_015.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_015.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_016.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_016.cms",
+      "sha256": "2772986e06bde59e80e05ae0b8b54b5ed835898bb32f387a80453d0bd6287ba8",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_016.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_016.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_017.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_017.cms",
+      "sha256": "f4ab565118cadabf234055963f03ac0cbc5802b6a8e80e8bcafe3bbf799b7656",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_017.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_017.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_018.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_018.cms",
+      "sha256": "39b4804f597dec1ee98b04041064ab9427aec1a724de667377c6e4887fa7b90a",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_018.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_018.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_019.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_019.cms",
+      "sha256": "7f59139a9a34dde57819128331630c04bd0eb3045b989e044de0ccdea6864c60",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_019.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_019.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_020.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_020.cms",
+      "sha256": "2ccb5c968fb0d5df357d1ef11b1cee4313ae334b056061705ee75f8a4287f8eb",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_020.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_020.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_021.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_021.cms",
+      "sha256": "bbf4581c2f16b9fd4a7ed376168bb08332142d5db5bf549bee04a7d80319ac2d",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_021.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_021.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_022.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_022.cms",
+      "sha256": "3fdff32fc1a2f8fb0319062439aa1939004b01cfa4cde10d203286868d5f82f2",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_022.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_022.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_023.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_023.cms",
+      "sha256": "d0adfc3ae0e50bfd7ae640938bc967cdfa333a04f77cb79534d271e6b9e92011",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_023.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_023.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_024.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_024.cms",
+      "sha256": "10eda72ea03f057058e454362df2090a3d57153b29420df295f4cb770a58e9fe",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_024.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_024.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_025.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_025.cms",
+      "sha256": "f012879d0e60cc4342b2627d3180b3273ed27a70cee7c40b30079f4b799072fe",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_025.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_025.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_026.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_026.cms",
+      "sha256": "4a1277730f107aec56fd69cd70d2f8bb20f493054da14b463ff35886908c08c1",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_026.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_026.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_027.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_027.cms",
+      "sha256": "2aa8c07379e555e02ced4ec0cde3fb48d5639752074c626b3feedebbdc41fbf7",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_027.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_027.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_028.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_028.cms",
+      "sha256": "86d06ac22345f552c712991ad89f536956db8c5fa704b2c1f73dd49c919d5973",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_028.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_028.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_029.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_029.cms",
+      "sha256": "edbcc507a5b439e0dbd2a3c7ee213a45aa6c0cc7146b6c16ec0f6b5c9bb27a75",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_029.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_029.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_030.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_030.cms",
+      "sha256": "4ebb4458815a6dc0f56535c5cdd76d29b94d490a65aad52383c16d968ec8ccb3",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/measured_030.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/measured_030.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/plaintext.bin",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/warmup_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/warmup_001.cms",
+      "sha256": "36cbb5424cc284ce7bd0daa89b7c28c4332362d42c6fdb9ec0c1697f72529864",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/warmup_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/warmup_001.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/warmup_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/warmup_002.cms",
+      "sha256": "7991c350c64929fb3cee5c28be96e248b1c7f680b2f7eefeaae945a46510918b",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/warmup_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/warmup_002.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/warmup_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/warmup_003.cms",
+      "sha256": "32aab95e19a98249c6c3f20161bbf5c55f45925d019538825f9e165e7f6079fe",
+      "bytes": 1049138
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_1048576B/warmup_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_1048576B/warmup_003.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_001.cms",
+      "sha256": "6fd54cd49d0aad2aa17e9770640fe57950d68a2c935b21a5ad1bfaf4eafacb4f",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_001.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_002.cms",
+      "sha256": "1b3091ad83a68817024e37f4d410a38532afbca289605690f87bd538a754e0f1",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_002.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_003.cms",
+      "sha256": "ea88dab14d524c8626a5ca8325fc02191c5dda4c325b875f4941b035329dd4d5",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_003.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_004.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_004.cms",
+      "sha256": "030806c47373c5ffbd73e3f878b5825b02df67e78d651c5bbfb67eb36d83acdb",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_004.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_004.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_005.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_005.cms",
+      "sha256": "37a9449c2fb6c086277fe1f1091851e7554952b3caa0860362726980e1d4bebe",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_005.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_005.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_006.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_006.cms",
+      "sha256": "50a2a441a6c8f08a78de9cb9577e5ba03bacb28dcad0864f479352d2efda08f7",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_006.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_006.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_007.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_007.cms",
+      "sha256": "125e660370058789bce31b8082eefe533f5b5f0b66e4b0942297054b1188be81",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_007.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_007.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_008.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_008.cms",
+      "sha256": "a7f7aad1420a9e6ff0deac55d5f621f502fb2dd2ab9ca7cc636b8b2422d0cd1b",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_008.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_008.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_009.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_009.cms",
+      "sha256": "e4b269ab87dede4dca278290ce8e8e2cdbe3ca21efa4acfa5600b60cebde5283",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_009.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_009.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_010.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_010.cms",
+      "sha256": "35fa688af4bdcfab145499ba230d9e04852c6dd67a09667c773ea29964f6422d",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_010.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_010.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_011.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_011.cms",
+      "sha256": "6cf03241068c904ef54d727dff804929503e5927e41adbb943b90b522f1f0224",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_011.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_011.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_012.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_012.cms",
+      "sha256": "d3348d7e4232f16c4d208892e9f356ea25fa2dac646198c0ffbb3cd3ec62ae48",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_012.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_012.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_013.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_013.cms",
+      "sha256": "8db81f79f8431abc0564ed410fc6a7ce035a2f4b86026e9744a9592539431763",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_013.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_013.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_014.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_014.cms",
+      "sha256": "d688243be081b0885b2bec7cbe5af5dafddc7875fc7c4d43282d9460d82485dd",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_014.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_014.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_015.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_015.cms",
+      "sha256": "f547e224023d8cacac30cda45bb5c18355cd0c3510dfb3be46c6661795650bb8",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_015.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_015.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_016.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_016.cms",
+      "sha256": "cf3e314343c98b966baa69a5e7fb68878733bd7f93c1aafaa7ae06e2ecb11b94",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_016.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_016.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_017.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_017.cms",
+      "sha256": "29b25b5bdd14c8fbe605f3c6da2106a0b37a76870efcb80bc3e9bf67a1a627af",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_017.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_017.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_018.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_018.cms",
+      "sha256": "ef1e8babcd2de9db5a2958feb43648f64650311222faf95bb09a61485dc6f891",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_018.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_018.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_019.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_019.cms",
+      "sha256": "86a8226e99c16c042491559b1140d0d326daa39cfb1eaa970417c00381c2eb95",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_019.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_019.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_020.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_020.cms",
+      "sha256": "bf636864df190483c3d251165648c994da758bf3066da37d394ac89beb72031e",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_020.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_020.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_021.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_021.cms",
+      "sha256": "3cf1ea97e6911ecc71b69c0b2e1c0eda4fb893d55ea832a5c33bc3b40649ecf3",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_021.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_021.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_022.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_022.cms",
+      "sha256": "f919410d056008063884c956d86e6d19eec97ccd36d8e4fa03dc8f0e5b055398",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_022.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_022.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_023.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_023.cms",
+      "sha256": "5dd7b3a10cd4874416b5545c71a6b1b7709d2c04401a719a856301e49399743b",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_023.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_023.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_024.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_024.cms",
+      "sha256": "59a2aa8ccb6bf2d6538351fcd4922203b453a4db23438ce0b9efd651e6be2716",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_024.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_024.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_025.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_025.cms",
+      "sha256": "7fe3767065f6b701cbdcc36dc01b04f387edf223d9def6f9a2d505541fa0b3e1",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_025.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_025.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_026.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_026.cms",
+      "sha256": "125d17913cda557ffbd6e6a0cc9ddb36ce3fc5f199bbfd114f3539cffc30ab3e",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_026.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_026.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_027.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_027.cms",
+      "sha256": "365056490702e400b86f70462d8e26172e383d64deafad4f4108007acc6c656f",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_027.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_027.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_028.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_028.cms",
+      "sha256": "63c4b6f86e9e20006ca06fbfd41273482925f621d5b3cd72f69bef11bd10e2ad",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_028.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_028.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_029.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_029.cms",
+      "sha256": "3553b348897a35277c165a997af475c630ae41a908fc0cc34c67944d06c1a198",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_029.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_029.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_030.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_030.cms",
+      "sha256": "51d05e4c31b8cb746af56840b3df086194f821855cb08993067918b63262cb31",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/measured_030.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/measured_030.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/plaintext.bin",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/warmup_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/warmup_001.cms",
+      "sha256": "a538a226011d00f15e0491d31e76720e6ee0c0cd61cf344965982a57004ba90e",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/warmup_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/warmup_001.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/warmup_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/warmup_002.cms",
+      "sha256": "cefb01109f0d9682de993d28268161e61f93fc2f9593bb0c08109d327d260e69",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/warmup_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/warmup_002.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/warmup_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/warmup_003.cms",
+      "sha256": "55e04f20bae15f20c3cd263930c0691daec213b561e5c69aa268fdb05dbc8866",
+      "bytes": 683
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_128B/warmup_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_128B/warmup_003.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_001.cms",
+      "sha256": "29c32cbc968a0b3b7590afc2579f4906c5944a1443725c4026999f75f25c6d1f",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_001.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_002.cms",
+      "sha256": "e0369d585f557fdb30a74b9e1ae19bdca7bfe3d6bd0a19c0ad7f9ceba7513f27",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_002.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_003.cms",
+      "sha256": "198fb0c758ee65ad84cfbcd00dadb9c294d1f8ca22dbf89ceb58d228ca2b60a1",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_003.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_004.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_004.cms",
+      "sha256": "3cba2bb25013395da899fb84a7fefc74e46d8eeeb430834250b935dc75188053",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_004.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_004.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_005.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_005.cms",
+      "sha256": "13ceea0500b39fce960d080f402ef2c2b15915fdb861e32439a41ee568296e8e",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_005.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_005.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_006.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_006.cms",
+      "sha256": "45c0d651ad44757a3d44f863cabffd714b3492de19fa68261d72c2eb8c5a5cbc",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_006.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_006.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_007.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_007.cms",
+      "sha256": "1a54945e302f8e4587b5c348e7f242861c9e3d22f2202af2ad15a4c89c0bd72e",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_007.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_007.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_008.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_008.cms",
+      "sha256": "08381b7d5374dcaf37cb09a7494711e94a27a3e943b4b4e466fa771d62517d3b",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_008.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_008.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_009.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_009.cms",
+      "sha256": "e637ec41f1e700ed59fc100ecaef2fe3d888b8abac6ea62b10df8686748d56be",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_009.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_009.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_010.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_010.cms",
+      "sha256": "42ab379d9d5e150ed0407eb929e5e9f6b94ea698202a2c21b018e1c7ed9737f8",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_010.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_010.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_011.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_011.cms",
+      "sha256": "e474e47fb5b65aac910cdd9f968d44a3760eed55d7295712c43104662ce03c84",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_011.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_011.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_012.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_012.cms",
+      "sha256": "6f6042ae381f486ad6c77f4e00066bbb597bf5bb849268482b04848d6551c95e",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_012.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_012.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_013.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_013.cms",
+      "sha256": "ce4dff22880c3fe031a808fe3581427f64577eea0dc5a3815dab3bf51a3623d2",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_013.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_013.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_014.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_014.cms",
+      "sha256": "f989d46253ff4c0c692fbbf725b467b672a54cc24211c1b79d82380ce8dc0d95",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_014.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_014.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_015.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_015.cms",
+      "sha256": "4a1502a90b4e34fe43c32d4471758cacfc7f1c5a4a8b86ccc52adb4a4a679056",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_015.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_015.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_016.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_016.cms",
+      "sha256": "5e84285e8005d6093f53578adba80fb456cb77464bbf515d78276d534e39b10f",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_016.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_016.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_017.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_017.cms",
+      "sha256": "9e23ae4ccef220ec62e7d0896b8948162b770889cb12169161b83b52ff7c8b47",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_017.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_017.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_018.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_018.cms",
+      "sha256": "d74712812fb1656555085b4f5b448d1a69b2888d1d6e9cecee13eb4767b5ff6e",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_018.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_018.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_019.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_019.cms",
+      "sha256": "9871d58dfae44c2baf94bdec72790cddc8026a46b1ec23191c873076c9125ca8",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_019.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_019.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_020.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_020.cms",
+      "sha256": "2523de45573edb722b948a6f712892833d727deecf2d8e836c645d09717dfd7a",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_020.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_020.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_021.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_021.cms",
+      "sha256": "8c5e27a3fc288a7441c56cda96de9f126ccd4569f2962d81c5f2abe23dec6ec4",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_021.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_021.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_022.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_022.cms",
+      "sha256": "04b1364ee18181af20033928c9619f82e40e869b5b0d7017dc031dc916557383",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_022.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_022.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_023.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_023.cms",
+      "sha256": "7e42c8498f963f335325fe243be6f836611e924f23f0818c21f0ee21335cc0f9",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_023.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_023.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_024.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_024.cms",
+      "sha256": "e74c88669391a653ac627069a2140aa830b95fd2bd28124956cba2046ca9bf7c",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_024.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_024.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_025.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_025.cms",
+      "sha256": "1d7cd314abca255a55fffce1b168df653c65275cf2f9ca4337265cb45b4500db",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_025.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_025.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_026.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_026.cms",
+      "sha256": "05d7c9ec4c59bad06c845728a80e63725f53a489f2714cbadf4fe740d121bc6d",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_026.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_026.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_027.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_027.cms",
+      "sha256": "b7493f83d912c7ab66dec1394a1ec408ede512f88bec3e99907c2aaade74bda3",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_027.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_027.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_028.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_028.cms",
+      "sha256": "6efb1c3f5f52bbba5d8ed9e3e158079568bddf71fd4991c541c03eb80017be3e",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_028.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_028.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_029.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_029.cms",
+      "sha256": "ebce3392224615c2f434c4685a1d01db9e2a2ad6ae4aeae5f64bda1d24313d0b",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_029.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_029.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_030.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_030.cms",
+      "sha256": "2bf36b657a58d600ccc33b6c99cf8662db72bf50a9eb841ad0b8f98c18f3e022",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/measured_030.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/measured_030.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/plaintext.bin",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/warmup_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/warmup_001.cms",
+      "sha256": "d7536c6fe64522db52bc8a98842027d10b27c3a81aba232e9e96b193a0a2f597",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/warmup_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/warmup_001.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/warmup_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/warmup_002.cms",
+      "sha256": "35b53d9b1807b691d8c85ac0d8e55450fb09d485f7241796c505f693383a90cd",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/warmup_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/warmup_002.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/warmup_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/warmup_003.cms",
+      "sha256": "73f6c7e6fac79aa611444c1dba03663890b2668e647eff47a7d51d46d902111b",
+      "bytes": 16941
+    },
+    {
+      "path": "historical/evidence/performance/cms_cbc_16384B/warmup_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_cbc_16384B/warmup_003.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_001.cms",
+      "sha256": "721cbd23de2029f3d85b7f6d63b9a4184d74dd0ab3824237c4d9509565752c91",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_001.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_002.cms",
+      "sha256": "39c108a5394e63e50cd6494c2ea7506abef4e3400402abfec602ca170e5dcdb0",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_002.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_003.cms",
+      "sha256": "ef73157fdedc21c89fc33e352872eab3c62daa24dcec6202b2926dbf7afe448d",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_003.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_004.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_004.cms",
+      "sha256": "4027f6c7ef3fea48c13d69dd2912f161dd5c9352e9ca3766cfe250a6bba84005",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_004.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_004.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_005.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_005.cms",
+      "sha256": "90a9d4546193ff1b049355e6bfa75e04233e63161685ef0644b2240eed79bb3f",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_005.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_005.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_006.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_006.cms",
+      "sha256": "b1bce9dd4155c5091553fb38f1426ac5fb835d29f931464b422d1ce1cb0e1458",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_006.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_006.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_007.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_007.cms",
+      "sha256": "c8071f35142dc4421f2ecb88b744ab235f49e789c61cda81e5b766c21d078d6d",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_007.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_007.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_008.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_008.cms",
+      "sha256": "9158e98bcc1197917c06d65d8679934a60d46f4d44e9c934ca8c6d651ef34fcf",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_008.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_008.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_009.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_009.cms",
+      "sha256": "9da104208b6b4506c1c09e7958ba44de4153af023b1f18774a60a3b53850493b",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_009.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_009.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_010.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_010.cms",
+      "sha256": "5688af128b59b649c5739d59ce85b10e94d2f071bfc6e2c034c299e4cd5631b7",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_010.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_010.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_011.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_011.cms",
+      "sha256": "3540e2f40c3ef74df8ee336da2dd3102d7c768d21f10b0ddf04e7ace1c120bca",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_011.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_011.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_012.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_012.cms",
+      "sha256": "8bef6eeb5a270b79090f127df06654ab29fa9307ec031fe1e0c6b35f3003e801",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_012.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_012.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_013.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_013.cms",
+      "sha256": "8a7b094dc1517cfa35d63e52e5e2950f94bdfeb1335fab449fe80abf9a8e9941",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_013.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_013.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_014.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_014.cms",
+      "sha256": "801fa7a5e999af62de1eb96613659f34aab2eccd2984641ce000794e0af3866e",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_014.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_014.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_015.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_015.cms",
+      "sha256": "363c714ef4da5449a5d9ce7fe7dc231ad3358f0924d13b5258fd77f0302db9d3",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_015.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_015.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_016.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_016.cms",
+      "sha256": "b3b09a21ed6789e679ed8b3ee8f2fb97b2b6c492802c974a9f692ac01015ca3c",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_016.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_016.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_017.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_017.cms",
+      "sha256": "69b4f3faf2dcecd98edc19035af5c60de620d94401f3a31b5a1f8b5429b16f7f",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_017.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_017.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_018.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_018.cms",
+      "sha256": "053c9702ecf0022882114e23f949a8cd2c4a06b1d7b0e0099687b085920a7832",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_018.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_018.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_019.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_019.cms",
+      "sha256": "be1393d432fd82cdfbc85f1a269d1d28a27fa7e9781a139e88bd60a3978c5748",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_019.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_019.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_020.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_020.cms",
+      "sha256": "871d7889b153b4109131e1eb50bf62199d2c7708347cdeffb56387845eea7fed",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_020.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_020.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_021.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_021.cms",
+      "sha256": "9013b650ccbd42233a1e2c6bbcc47e5038abbb5940757b014d7a46a750b6936c",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_021.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_021.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_022.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_022.cms",
+      "sha256": "fe06537da233715b13a040d9b8d0b576f6da4e76be99d5074b27fc4e1da90445",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_022.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_022.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_023.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_023.cms",
+      "sha256": "e40346f23af9acf7b20a9e5db49188da33bcd6eaf7e62711cfd3f28f223baf0b",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_023.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_023.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_024.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_024.cms",
+      "sha256": "7387d00354acb03c4d05e73f97b4e18a3b90bd2816134c13dd61ad7766d65e52",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_024.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_024.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_025.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_025.cms",
+      "sha256": "1a6ff23a557806000afd3b2905a2b4a831d28db951d306d7a3ec167db12d9271",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_025.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_025.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_026.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_026.cms",
+      "sha256": "3fdef4762303a890ed9011afd2e74f31dfacf3001db1b19e2c82144d379a660a",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_026.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_026.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_027.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_027.cms",
+      "sha256": "c52c2231eb3258b3e42dd9f7feaa50add867ff67dfbd2425e74e9139e5b7fb73",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_027.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_027.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_028.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_028.cms",
+      "sha256": "091ed99e4e5c15ff14f23d8e6c6ae78ec375bf685f17b7552520c0b6bf4e96d2",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_028.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_028.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_029.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_029.cms",
+      "sha256": "a33408d48f6a118a5b1557e5aa17cce36adc859de4d9c759ee7aa6446c6aee04",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_029.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_029.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_030.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_030.cms",
+      "sha256": "732c66e75f76195f31d864f2308fb988730f38aa65d0e06a5d2f2b2239428b6f",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/measured_030.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/measured_030.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/plaintext.bin",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/warmup_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/warmup_001.cms",
+      "sha256": "5eb54e4b2f2f2d59db07e1c49d5bb81ceeb4a5c8408931856198dc7cc3b4330e",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/warmup_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/warmup_001.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/warmup_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/warmup_002.cms",
+      "sha256": "507a5dadbddcd78952232253287353e55d6e3f501947c0a2d40f5d09c19f7275",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/warmup_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/warmup_002.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/warmup_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/warmup_003.cms",
+      "sha256": "532883cde39fabb87aed049388a495f21a48cf3e8d1f5b78b191e20f6c50b902",
+      "bytes": 1049143
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_1048576B/warmup_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_1048576B/warmup_003.dec",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_001.cms",
+      "sha256": "37a350d3e745d67ac787a9e5828c09ed0fcc16a7ad0e5a9ce1a6d4127bac4fd6",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_001.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_002.cms",
+      "sha256": "665a34b719e2d0740b94130f8adc41f8c07ad5756a1c8eccaa7a241e3b8c113a",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_002.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_003.cms",
+      "sha256": "6b946a839907f06f6d66f2b1e0af1b0caf2500e5612a1c540adf2cfbf971c0e7",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_003.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_004.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_004.cms",
+      "sha256": "1e12247348589fc82f5f4ba0c18af0d2bc8dcc82cab22a53b8d7c5001a519e14",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_004.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_004.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_005.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_005.cms",
+      "sha256": "8f74848b80c49ffb62a409aa76fa4c5306e9fdffc028102efd3b5aa67a0b3509",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_005.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_005.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_006.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_006.cms",
+      "sha256": "5bfa0915ecdcf7a479159ccdeee7ac9ec44ba65bf4ebe7eb444649a405162465",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_006.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_006.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_007.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_007.cms",
+      "sha256": "a846e6b74f07186c247dd183b9311afa1cd854379acd194103dc0561608b9487",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_007.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_007.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_008.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_008.cms",
+      "sha256": "b8f0cd80c365288cfc918561d9c2d297edb46043f31078af07a29a17f26f2fa6",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_008.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_008.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_009.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_009.cms",
+      "sha256": "7171b55031343e3572861a8a57dfef319f573fbc1305d089d7a10d2b4d0db879",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_009.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_009.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_010.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_010.cms",
+      "sha256": "cbf21ef52d04ca3da25751cb209c50c5449617b308dc3a9cfc8ef6ff35097b1b",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_010.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_010.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_011.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_011.cms",
+      "sha256": "492baeab06a34c4e5a2f7c9631e45230099f51f293d43676f3feeacd4d6d2101",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_011.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_011.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_012.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_012.cms",
+      "sha256": "d78b163e000ac9b0e146ff86d139d9381021633f97ef11ce962c40efa89430bc",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_012.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_012.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_013.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_013.cms",
+      "sha256": "1cb5fe8e5d057b9f0a25025699e50a8e8786ff0fa7a1d6fa67b6e230e7ece21e",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_013.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_013.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_014.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_014.cms",
+      "sha256": "7f44276f65dcc382beacdb7d48c490663248f51dc4f2ef1b099b484e0545dc64",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_014.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_014.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_015.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_015.cms",
+      "sha256": "f3b220c4fef6af8a79ed720f79dc67633e59b451dedb719c360b00ffe677c634",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_015.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_015.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_016.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_016.cms",
+      "sha256": "2c98b42d513899b578aa6f5f734432577defc7db39408075096a5b104d6174ad",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_016.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_016.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_017.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_017.cms",
+      "sha256": "d6a9ed889872d8eed51cca19ee045a415e8856d7a01ebd92281ec9288ebf7fd3",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_017.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_017.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_018.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_018.cms",
+      "sha256": "702effce9e94d66c9af272902340ce0dd5d3c42aaf9a0321692fba0a8fc075a1",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_018.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_018.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_019.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_019.cms",
+      "sha256": "93f0693303bed7452af701da45352c45af5806783ec5cd8b0f45ede5bec73bb7",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_019.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_019.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_020.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_020.cms",
+      "sha256": "130b532a045099d4df531e2e0b055010840e90cf3dbcb1c388597c02ca28b1c8",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_020.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_020.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_021.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_021.cms",
+      "sha256": "46da685d2f7a94bdb6e4007ac774d9e5938ccd5cce5e3069f04b713a07a93ce7",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_021.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_021.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_022.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_022.cms",
+      "sha256": "e0871d503e7b14355cba56ea186bf7a7b3119ed5cfebc7e31a174bbbbeb4b7cf",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_022.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_022.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_023.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_023.cms",
+      "sha256": "03a8bda14b7cec57d8e2699a890c53283634c966e6f96b9b9ef421be6190b519",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_023.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_023.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_024.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_024.cms",
+      "sha256": "9b3861d8213b62f3e337b034b99d0048299a68569148bd0aa9fd993113bf3f49",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_024.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_024.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_025.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_025.cms",
+      "sha256": "449e86292df3d5f1371c44f7eca654894c16c60d4d6ef071e4b85967cea9d8ce",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_025.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_025.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_026.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_026.cms",
+      "sha256": "160dbab78e7dd6102e604810e79f37a2880cd08d7c5a406efbd916cb0a086440",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_026.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_026.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_027.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_027.cms",
+      "sha256": "737b031f9a621fe675d242053f44ad3df7963f97c4658bbcee9db19c5b477645",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_027.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_027.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_028.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_028.cms",
+      "sha256": "2b84a4fab453d36511317162e87e583414f23b5d36be776fd00c96e6f39ee1b3",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_028.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_028.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_029.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_029.cms",
+      "sha256": "03f3fe20dff7422f5fe93ae41b27c0f0eb520a9aa6b13612432654386deb5032",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_029.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_029.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_030.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_030.cms",
+      "sha256": "c14c8f872986734b37d93d922143cf14bd9ca878b44e39f67aa21588c4b6642d",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/measured_030.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/measured_030.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/plaintext.bin",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/warmup_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/warmup_001.cms",
+      "sha256": "f0e8049f1b4fb48d02570241034c2b7eef17aaa82934b315b376114b7d9e9ca5",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/warmup_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/warmup_001.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/warmup_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/warmup_002.cms",
+      "sha256": "b9a651b566fff403301b5ddc36091d5f71b78b19f86de7dcbddb30274ecdffca",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/warmup_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/warmup_002.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/warmup_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/warmup_003.cms",
+      "sha256": "9a93492a02179045ee0c1b17bc0d8c40f71532e22f0993e7f6c96a322110caa5",
+      "bytes": 688
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_128B/warmup_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_128B/warmup_003.dec",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_001.cms",
+      "sha256": "0880b386b8998122187d35ea2f64332a64962ee3ce352d6bc9dc8df2ce2ef194",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_001.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_002.cms",
+      "sha256": "8deab4302e0d8c5f17a0aef550ad744b9fcd49f23749f24b066a7ab6c165b0df",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_002.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_003.cms",
+      "sha256": "c88788295bf236cbfd46d8b0e5f3b04f3ba593c83261447279fdb4d802c1d0d2",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_003.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_004.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_004.cms",
+      "sha256": "370703711122c41524ea599a7509b44ab389542035c011a654127af15c384457",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_004.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_004.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_005.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_005.cms",
+      "sha256": "4fb0cfb5a720280c0204d9e4ec5f7949f30ffea0b85456401b44a172b5f6a6a9",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_005.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_005.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_006.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_006.cms",
+      "sha256": "192e0edcba9d2eb18bb3cabbdb2cc5665d564da054e0d4a381e8a81033068d11",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_006.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_006.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_007.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_007.cms",
+      "sha256": "58734c9ea94aeb4d4a233a758e5292ba4821c1df3e15b22ff8e112b60746b6b9",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_007.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_007.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_008.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_008.cms",
+      "sha256": "c73a52ce9da383be4bd4d107e9d4623955400fa4a6c6fa57096bd8c0acc8e1da",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_008.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_008.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_009.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_009.cms",
+      "sha256": "a9b8f05955908385a36244f6d52395728b9761c5798f2fe1da74afe86fd594bd",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_009.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_009.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_010.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_010.cms",
+      "sha256": "5eeca22a03e0a2c1578db3f5483b5d415bf6a9991ab67b964a2768e1462f9c8b",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_010.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_010.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_011.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_011.cms",
+      "sha256": "12a264590170a49a6964a052a3b49182791b1b418b5e1b12b4771c2f86d421e7",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_011.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_011.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_012.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_012.cms",
+      "sha256": "1fa03e2335eeb4294e8e18bb79d486a0b332c0a7c022e16580272e54a2a8007e",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_012.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_012.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_013.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_013.cms",
+      "sha256": "abf8159444ecb8359d3d5871cfccf036fdcffbe819f0bbc5562a2f4fb2d9e5e1",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_013.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_013.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_014.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_014.cms",
+      "sha256": "dbff80f1741b817e494429ccd790271dce8faea7ff43c55d27857c348ad77107",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_014.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_014.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_015.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_015.cms",
+      "sha256": "9c3f12f6c2f3bc148c76c1c36f774052ed2d0adaf113bef907d918cff9a055c7",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_015.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_015.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_016.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_016.cms",
+      "sha256": "5b1e8666deab6b092067a53815d2359dd616db1593119ac1f61d68594fcaa3a9",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_016.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_016.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_017.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_017.cms",
+      "sha256": "1ee9cc56c68176fc388c97034fdf6f58b4f1c34e29395cf9d8c072934f6b710a",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_017.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_017.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_018.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_018.cms",
+      "sha256": "87d1e4c37a044dc6b1927216475f005f116ae09a854f62ceba0538174ce68806",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_018.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_018.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_019.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_019.cms",
+      "sha256": "b808a0a8c2a5ccc1303b87f5ac88f8c08fb6f2c7c1ecca17e2d392721bc0d6ae",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_019.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_019.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_020.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_020.cms",
+      "sha256": "0379608c2047bd1e5f548aa266861011301632df4f7bb1b46fafab5ffb142a45",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_020.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_020.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_021.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_021.cms",
+      "sha256": "39799fa99c518378ae6d903039f59a012a1513adf0bc62ba97d469539cea53eb",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_021.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_021.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_022.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_022.cms",
+      "sha256": "be1c1f77158083686bdd62380d18e251659dbe155f759cf323e755849003360b",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_022.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_022.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_023.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_023.cms",
+      "sha256": "9c793b5dc444f3a4c538fef114e044430e33614120d499e5fbd2b3dc42dc4dc4",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_023.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_023.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_024.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_024.cms",
+      "sha256": "899683b3697a6748e6769b01eb223c2f777ad5670e0c687fa1c5ebd769c91988",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_024.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_024.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_025.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_025.cms",
+      "sha256": "74f2930d22a44f045e7efed4c461db4990fc8a78b7290d8e0316c2539b335e4e",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_025.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_025.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_026.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_026.cms",
+      "sha256": "81338733229b14f6dfab026027e0350621bc3debc8313932dfa6b39f6111715f",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_026.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_026.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_027.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_027.cms",
+      "sha256": "daab116c91079e8e21dbd6bdf100bde0bbe0ccdb48d5f6ff994a644bfbf00e5f",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_027.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_027.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_028.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_028.cms",
+      "sha256": "f7baaf7a47b7af353115154327c736922f95c9c574d82db6b92342ffe9071bce",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_028.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_028.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_029.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_029.cms",
+      "sha256": "646fdfa59f2582133a042cba2d7d015fb2f457f7f79c192bc44d0c83186e6345",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_029.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_029.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_030.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_030.cms",
+      "sha256": "def7d820c63cdb495e9534a81ea7f75a89de8d83a869e25f88da620681e0bb3e",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/measured_030.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/measured_030.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/plaintext.bin",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/warmup_001.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/warmup_001.cms",
+      "sha256": "7bf92c2bc8cb3fef0b01a97c7a0022f321a4201d692885703aa6a7a8f8424ed4",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/warmup_001.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/warmup_001.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/warmup_002.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/warmup_002.cms",
+      "sha256": "6d789d22a8cc13650bfd2e813a49c14d4eb42fdc0e25c9fcabc49ae6df5a7c7b",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/warmup_002.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/warmup_002.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/warmup_003.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/warmup_003.cms",
+      "sha256": "a6f27333e034690e617a698f92ca72fdb6a039276f82ce042e551e58f0dcd685",
+      "bytes": 16946
+    },
+    {
+      "path": "historical/evidence/performance/cms_gcm_16384B/warmup_003.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_gcm_16384B/warmup_003.dec",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/cms_structure_checks.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/cms_structure_checks.json",
+      "sha256": "72f14ca703e4d90c5985232ee66a13dfe749ea4d8920ac7f8b45b84ba8074f2f",
+      "bytes": 3171
+    },
+    {
+      "path": "historical/evidence/performance/completion.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/completion.json",
+      "sha256": "297bf145d8aae379281fb10cc3df8a9b9e579e4ec64f00cc2e60e9f74457db03",
+      "bytes": 114
+    },
+    {
+      "path": "historical/evidence/performance/exit_code.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/exit_code.json",
+      "sha256": "124fd50cb6d223cdd18fedc166d00af7254199b6e6dedf9be82f71db87af6d01",
+      "bytes": 16
+    },
+    {
+      "path": "historical/evidence/performance/failures.jsonl",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/failures.jsonl",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "historical/evidence/performance/hybrid_1048576B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/hybrid_1048576B/plaintext.bin",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/hybrid_128B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/hybrid_128B/plaintext.bin",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/hybrid_16384B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/hybrid_16384B/plaintext.bin",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/launch_command.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/launch_command.json",
+      "sha256": "7857b211b771044dc5355335457d42d6ac9a6c728de3f419803c3e7a5b08301a",
+      "bytes": 284
+    },
+    {
+      "path": "historical/evidence/performance/mlkem_1048576B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/mlkem_1048576B/plaintext.bin",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/mlkem_128B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/mlkem_128B/plaintext.bin",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/mlkem_16384B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/mlkem_16384B/plaintext.bin",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/provenance.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/provenance.json",
+      "sha256": "76316049394faba2bae3c991e84dc0b29450634c4ccdafc9ec717e03cbe0208f",
+      "bytes": 14464
+    },
+    {
+      "path": "historical/evidence/performance/ratios.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/ratios.json",
+      "sha256": "bac6c4fa70cac7bae84951956003d217d898c9d21c27892e2614b016d438f8e1",
+      "bytes": 7656
+    },
+    {
+      "path": "historical/evidence/performance/raw_samples.jsonl",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/raw_samples.jsonl",
+      "sha256": "e66b8566ef7bfc6a60e8df38928b11f1f1aefe79f1b443f7e0f81891675fc435",
+      "bytes": 616390
+    },
+    {
+      "path": "historical/evidence/performance/rsa_1048576B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/rsa_1048576B/plaintext.bin",
+      "sha256": "c5a3e27d1ed0f894843bca3a5473c4bf0f76a19b6830a2e491292591613a12bf",
+      "bytes": 1048576
+    },
+    {
+      "path": "historical/evidence/performance/rsa_128B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/rsa_128B/plaintext.bin",
+      "sha256": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "bytes": 128
+    },
+    {
+      "path": "historical/evidence/performance/rsa_16384B/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/rsa_16384B/plaintext.bin",
+      "sha256": "e33f24140499430b048f6600af4f41f3ccb0cb766d9f7661124cf8ba4b827523",
+      "bytes": 16384
+    },
+    {
+      "path": "historical/evidence/performance/sources/hybrid_rsa_mlkem.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/sources/hybrid_rsa_mlkem.py",
+      "sha256": "7917c412f4e1d8c17fb9562f2c52d05480fd8b24a3976f58b84ce3db22d596a1",
+      "bytes": 14641
+    },
+    {
+      "path": "historical/evidence/performance/sources/openssl_cms_bench/bench_openssl_cms.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/sources/openssl_cms_bench/bench_openssl_cms.py",
+      "sha256": "cd96587a48bec875e9424a6402a16e564b69c1c97778db9f92c2bb6cfd37bf03",
+      "bytes": 3364
+    },
+    {
+      "path": "historical/evidence/performance/sources/openssl_cms_bench/bench_openssl_cms_gcm.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/sources/openssl_cms_bench/bench_openssl_cms_gcm.py",
+      "sha256": "0a5dd10b38c1bd9721c4caae50321fb89a978cbb747e482b0cbd8a0016716ece",
+      "bytes": 3250
+    },
+    {
+      "path": "historical/evidence/performance/sources/requirements.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/sources/requirements.txt",
+      "sha256": "cdff7d1b0ba36db5f5a19e51f662bfe8379155e56b47348df82cf1e53635d0f4",
+      "bytes": 51
+    },
+    {
+      "path": "historical/evidence/performance/sources/run_experiments.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/sources/run_experiments.py",
+      "sha256": "7698545c4a4366c386fc611e20b04b4959a717f1329278462f4633954a9771a4",
+      "bytes": 16699
+    },
+    {
+      "path": "historical/evidence/performance/stderr.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "historical/evidence/performance/stdout.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/stdout.txt",
+      "sha256": "4279450a51ff7d91583750ca601b3495289801fefb14b92258ea5a152c88f869",
+      "bytes": 696
+    },
+    {
+      "path": "historical/evidence/performance/summary.csv",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/summary.csv",
+      "sha256": "b935d24e4a330a370252c64d6b4fcf3b2c13fa5bf695fa2c9afc554a7d33b48e",
+      "bytes": 2809
+    },
+    {
+      "path": "historical/evidence/performance/summary.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/summary.json",
+      "sha256": "fdc674e076a0d000af55b9cf382e284d8428b6ce25c645ef4e68d5d4eea687e9",
+      "bytes": 7901
+    },
+    {
+      "path": "historical/evidence/performance/validate_campaign.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/validate_campaign.py",
+      "sha256": "957023669b9e1af0ba0855818e57f79f185b52a2c98126fdcbab18fdc9fc26ad",
+      "bytes": 6725
+    },
+    {
+      "path": "historical/evidence/performance/validation.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/performance/validation.json",
+      "sha256": "de53bff5fa96d801a913c0ac0db6f31798fe74cb6f8c012fa0666347c81a9a46",
+      "bytes": 73297
+    },
+    {
+      "path": "historical/evidence/results_attacks/attack_results.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/results_attacks/attack_results.json",
+      "sha256": "39591e3909a06afc9f4262dfcba712a11fb363cbcb90ea827a05c98bb0202af5",
+      "bytes": 4007
+    },
+    {
+      "path": "historical/evidence/results_attacks/attack_results.md",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/results_attacks/attack_results.md",
+      "sha256": "8d82a1981227a573861e465c00f02d5b117b207477d2463b886f15a55565dc9b",
+      "bytes": 2406
+    },
+    {
+      "path": "historical/evidence/results_bound_control_verified/comparison.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/results_bound_control_verified/comparison.json",
+      "sha256": "1fa701a6c8519a925429140e588440602db03eb65d8eb9a22c820a8b0b364748",
+      "bytes": 2965
+    },
+    {
+      "path": "historical/evidence/results_bound_control_verified/comparison.md",
+      "origin": "verified_experimental_archive",
+      "original_path": "evidence/results_bound_control_verified/comparison.md",
+      "sha256": "e8fa1f1208d9b27573de377c6985fb8d938c8e6d5e733d3348c88bdb7badca87",
+      "bytes": 1454
+    },
+    {
+      "path": "historical/packaging_validation/checks/attacks.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/checks/attacks.json",
+      "sha256": "39591e3909a06afc9f4262dfcba712a11fb363cbcb90ea827a05c98bb0202af5",
+      "bytes": 4007
+    },
+    {
+      "path": "historical/packaging_validation/checks/bound_control/comparison.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/checks/bound_control/comparison.json",
+      "sha256": "1fa701a6c8519a925429140e588440602db03eb65d8eb9a22c820a8b0b364748",
+      "bytes": 2965
+    },
+    {
+      "path": "historical/packaging_validation/checks/bound_control/comparison.md",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/checks/bound_control/comparison.md",
+      "sha256": "e8fa1f1208d9b27573de377c6985fb8d938c8e6d5e733d3348c88bdb7badca87",
+      "bytes": 1454
+    },
+    {
+      "path": "historical/packaging_validation/checks/commands.jsonl",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/checks/commands.jsonl",
+      "sha256": "74bcda2376edfd9773c97fec7dd5bee9993ec2fa9765b00da3bd510c745f83ad",
+      "bytes": 1286
+    },
+    {
+      "path": "historical/packaging_validation/cms/asn1parse.txt",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/cms/asn1parse.txt",
+      "sha256": "5f52fd58eb8e109e09cf4809f7b25743c2ed5a56d83d69d1e326f6525202c260",
+      "bytes": 2363
+    },
+    {
+      "path": "historical/packaging_validation/cms/commands.jsonl",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/cms/commands.jsonl",
+      "sha256": "758cc843396ec609a2855b28290ee9178a0753ad335d2cacc84d1576a505d88a",
+      "bytes": 690
+    },
+    {
+      "path": "historical/packaging_validation/cms/modified.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/cms/modified.cms",
+      "sha256": "cf575d894522982e06f199b010d734c2fbd22e1125592ffd49ad26cc485d7adf",
+      "bytes": 628
+    },
+    {
+      "path": "historical/packaging_validation/cms/original.cms",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/cms/original.cms",
+      "sha256": "532c57f61a3400981d880bb373a8e3053612ff1f0143eb1163111a4c36b97735",
+      "bytes": 628
+    },
+    {
+      "path": "historical/packaging_validation/cms/original.dec",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/cms/original.dec",
+      "sha256": "b99ea78fd249b898ab2b21c849b471cec8e97a87f82c2f1fef6d043d9fda00f0",
+      "bytes": 47
+    },
+    {
+      "path": "historical/packaging_validation/cms/plaintext.bin",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/cms/plaintext.bin",
+      "sha256": "b99ea78fd249b898ab2b21c849b471cec8e97a87f82c2f1fef6d043d9fda00f0",
+      "bytes": 47
+    },
+    {
+      "path": "historical/packaging_validation/cms/results.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/cms/results.json",
+      "sha256": "1e47cfc38787da125cbfba79ab1941f6ea43920e8f0fda2a3a140035b093a40b",
+      "bytes": 1232
+    },
+    {
+      "path": "historical/packaging_validation/hpke/commands.jsonl",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/hpke/commands.jsonl",
+      "sha256": "5a15007476acee9ccfda137a2f3aa116d529e4b71311d93b785a4a5e0c39cc24",
+      "bytes": 247
+    },
+    {
+      "path": "historical/packaging_validation/hpke/results_hpke_reference/hpke_reference.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/hpke/results_hpke_reference/hpke_reference.json",
+      "sha256": "afc170923be900078e63dab93a682b14cb33184988b25b629b51c2b2fc050f28",
+      "bytes": 545
+    },
+    {
+      "path": "historical/packaging_validation/hpke_execution.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/hpke_execution.json",
+      "sha256": "bd87f12bc2b305f9dc7255ffaa7b802ed8e55fa441acdff8e8b6bb2c4ca76e2f",
+      "bytes": 677
+    },
+    {
+      "path": "historical/packaging_validation/receipt.json",
+      "origin": "verified_experimental_archive",
+      "original_path": "packaging_validation/receipt.json",
+      "sha256": "a4fff9f7843fb07813b7f376b492c02cdddba8ad66202e108efc0aa734dee3b1",
+      "bytes": 1080
+    },
+    {
+      "path": "historical/reproduce.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "reproduce.py",
+      "sha256": "bfbd0b0b0d0a8cfe34d25d7b79edb661767a3d5969974a4f99f6d8904ec30b71",
+      "bytes": 4932
+    },
+    {
+      "path": "historical/verify_evidence.py",
+      "origin": "verified_experimental_archive",
+      "original_path": "verify_evidence.py",
+      "sha256": "02ef7eb8d6cd8344146c30becd1d3f032de8327cf5c6a86f907f9239d6185604",
+      "bytes": 4084
+    }
+  ]
+}
