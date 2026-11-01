@@ -2,7 +2,7 @@
 
 Repository: https://github.com/Loubnaelghazi/hxm1-icct2026-artifact
 
-This is the complete review snapshot derived from the locally validated full package, **not** the size-reduced CMT ZIP. All 198 archived CMS benchmark ciphertexts and all raw historical timing/fuzzing records are included. Pre-existing private keys remain excluded. See `REVIEW_STATUS.md` for validation scope and the distinction between historical campaigns and fresh checks.
+This is the complete review snapshot derived from the locally validated full package. All 198 archived CMS benchmark ciphertexts and all raw historical timing/fuzzing records are included. Pre-existing private keys remain excluded. See `REVIEW_STATUS.md` for validation scope and the distinction between historical campaigns and fresh checks.
 
 This package supports the revised paper **HXM1: A Hardened Hybrid Migration Profile for RSA-Legacy Post-Quantum Content Encryption**. HXM1 is an experimental store-and-forward envelope combining a custom RSA-KEM-style component with ML-KEM-768, HKDF-SHA256 and AES-256-GCM. Its fixed hybrid overhead is 1515 bytes.
 
