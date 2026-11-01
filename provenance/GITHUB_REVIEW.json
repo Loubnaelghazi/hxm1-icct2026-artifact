@@ -6,7 +6,8 @@
   "purpose": "Research artifact for review; no DOI-bearing deposit claimed",
   "changed_from_full_zip": [
     "README.md",
-    "MANIFEST.sha256"
+    "MANIFEST.sha256",
+    "provenance/INPUTS.json"
   ],
   "added": [
     ".gitignore",
@@ -14,5 +15,19 @@
     "REVIEW_STATUS.md",
     "provenance/GITHUB_REVIEW.json"
   ],
-  "protected_content": "All original cryptographic source, test assertions, experimental records and archival provenance remain byte-identical"
+  "protected_content": "All original cryptographic source, test assertions, experimental records and archival provenance remain byte-identical",
+  "removed_unverified_or_obsolete_documentation": [
+    {
+      "path": "provenance/candidate_documentation_original/LIBRARY_COMPARISON.md",
+      "original_path": "LIBRARY_COMPARISON.md",
+      "sha256": "b72839091f7755f4320978390abee95bde50e10e674963f3b40486708eba3326",
+      "reason": "General ecosystem/gap claims were not fully verified by the code validation; removed at author request"
+    },
+    {
+      "path": "provenance/candidate_documentation_original/PUBLICATION_CHECKLIST.md",
+      "original_path": "PUBLICATION_CHECKLIST.md",
+      "sha256": "3d7222ba0da1ad2ba44dcd66c3cf0f6efff598f3656bd6ae3e13432ac51689d5",
+      "reason": "Historical checklist is partly obsolete; removed at author request. Licensing remains pending in current README."
+    }
+  ]
 }

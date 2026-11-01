@@ -23,20 +23,6 @@
       "bytes": 3065
     },
     {
-      "path": "provenance/candidate_documentation_original/LIBRARY_COMPARISON.md",
-      "origin": "cleaned_candidate",
-      "original_path": "LIBRARY_COMPARISON.md",
-      "sha256": "b72839091f7755f4320978390abee95bde50e10e674963f3b40486708eba3326",
-      "bytes": 3862
-    },
-    {
-      "path": "provenance/candidate_documentation_original/PUBLICATION_CHECKLIST.md",
-      "origin": "cleaned_candidate",
-      "original_path": "PUBLICATION_CHECKLIST.md",
-      "sha256": "3d7222ba0da1ad2ba44dcd66c3cf0f6efff598f3656bd6ae3e13432ac51689d5",
-      "bytes": 659
-    },
-    {
       "path": "provenance/candidate_documentation_original/README.md",
       "origin": "cleaned_candidate",
       "original_path": "README.md",
@@ -3647,6 +3633,20 @@
       "original_path": "verify_evidence.py",
       "sha256": "02ef7eb8d6cd8344146c30becd1d3f032de8327cf5c6a86f907f9239d6185604",
       "bytes": 4084
+    }
+  ],
+  "omitted_cleaned_documentation": [
+    {
+      "path": "provenance/candidate_documentation_original/LIBRARY_COMPARISON.md",
+      "original_path": "LIBRARY_COMPARISON.md",
+      "sha256": "b72839091f7755f4320978390abee95bde50e10e674963f3b40486708eba3326",
+      "reason": "General ecosystem/gap claims were not fully verified by the code validation; removed at author request"
+    },
+    {
+      "path": "provenance/candidate_documentation_original/PUBLICATION_CHECKLIST.md",
+      "original_path": "PUBLICATION_CHECKLIST.md",
+      "sha256": "3d7222ba0da1ad2ba44dcd66c3cf0f6efff598f3656bd6ae3e13432ac51689d5",
+      "reason": "Historical checklist is partly obsolete; removed at author request. Licensing remains pending in current README."
     }
   ]
 }
