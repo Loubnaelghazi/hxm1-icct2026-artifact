@@ -20,6 +20,18 @@ This package supports the revised paper **HXM1: A Hardened Hybrid Migration Prof
 
 No manuscript, private keys, passphrases, virtual environments, or dependency wheels are bundled. Licensing is **pending author approval**; no license is added or implied. This repository provides public access to a research artifact for review, with the owner's authorization. It is not a DOI-bearing archival deposit and no DOI is assigned. A license decision remains separate from providing review access.
 
+## Downloading a clean review snapshot
+
+For review, use GitHub **Code > Download ZIP**, extract it, and run the commands below from the extracted root (the directory containing this README). The extracted folder name can differ from `hxm1-icct2026`; the commands use its actual path.
+
+For a Git clone, first export a clean snapshot so Git's internal `.git/` directory is not treated as unmanifested release data:
+
+```bash
+git archive --format=zip --prefix=hxm1-icct2026/ --output=../hxm1-review-snapshot.zip HEAD
+```
+
+Extract that ZIP for manifest/sensitive-data checks. For GitHub-generated ZIPs with GitHub's own root-folder name, use `check_release.py --tree` after extraction. The direct `--zip` check expects the `hxm1-icct2026/` prefix created by the command above.
+
 ## Requirements and installation
 
 Tested target: Linux/WSL2, Python 3.13, Node.js 20+, and an OpenSSL CLI supporting RSA-3072/OAEP and CMS AES-256-GCM. The archived benchmark scripts inspect `/proc/cpuinfo` and Linux CPU affinity; they are not portable to every operating system. Python packages are pinned in `source/requirements.txt`: `cryptography==48.0.0`, `kyber-py==1.2.0`, `pyhpke==0.6.5`. `kyber_py.ml_kem.ML_KEM_768` is used; this is not a claim of module validation. Node tests use only built-in modules. CLI OpenSSL and the Python cryptography backend may be different versions.
